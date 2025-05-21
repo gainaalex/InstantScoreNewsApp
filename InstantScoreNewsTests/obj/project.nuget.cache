@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T2dET5n9JzRA/OnwZxPwqvhQdLU4bRv6woxu9TwA8KVybqJfehvbshL5JH+LQIWHfELVvAMrEc2+zuYGCKjwQw==",
+  "dgSpecHash": "xt+axyhMOshDIOs1Pp90tkCktzQPFJDdUqUAe18w8SVqXF5pc8uru0JfGip3j+5coxKEFsGyO0mNWPl/KLMIZQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect v2\\InstantScoreNewsTests\\InstantScoreNewsTests.csproj",
+  "projectFilePath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\InstantScoreNewsTests\\InstantScoreNewsTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC 2\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\PC 2\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

@@ -21,8 +21,8 @@ namespace InstantScoreNewsLib
     {
         private readonly string _username, _password;
         private readonly int _accesType;
-
-        public List<string> Notificari { get; set; } = new List<string>();
+        
+        public List<string> Notificari { get; }
         public User(in string username, in string password,in int accesType) 
         {
             //cerinta de format al username ului
@@ -35,6 +35,7 @@ namespace InstantScoreNewsLib
             if (accesType > 0 || accesType<-1)
                 throw new Exception("Tip de acces neindentificat");
             _accesType = accesType;
+            Notificari = new List<string>();
         }
         public string Username
         {

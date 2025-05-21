@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect v2\\InstantScoreNewsTests\\InstantScoreNewsTests.csproj": {}
+    "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\InstantScoreNewsTests\\InstantScoreNewsTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect v2\\InstantScoreNewsLib\\InstantScoreNewsLib.csproj": {
+    "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\InstantScoreNewsLib\\InstantScoreNewsLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect v2\\InstantScoreNewsLib\\InstantScoreNewsLib.csproj",
+        "projectUniqueName": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\InstantScoreNewsLib\\InstantScoreNewsLib.csproj",
         "projectName": "InstantScoreNewsLib",
-        "projectPath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect v2\\InstantScoreNewsLib\\InstantScoreNewsLib.csproj",
+        "projectPath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\InstantScoreNewsLib\\InstantScoreNewsLib.csproj",
         "packagesPath": "C:\\Users\\PC 2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect v2\\InstantScoreNewsLib\\obj\\",
+        "outputPath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\InstantScoreNewsLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC 2\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect v2\\InstantScoreNewsTests\\InstantScoreNewsTests.csproj": {
+    "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\InstantScoreNewsTests\\InstantScoreNewsTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect v2\\InstantScoreNewsTests\\InstantScoreNewsTests.csproj",
+        "projectUniqueName": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\InstantScoreNewsTests\\InstantScoreNewsTests.csproj",
         "projectName": "InstantScoreNewsTests",
-        "projectPath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect v2\\InstantScoreNewsTests\\InstantScoreNewsTests.csproj",
+        "projectPath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\InstantScoreNewsTests\\InstantScoreNewsTests.csproj",
         "packagesPath": "C:\\Users\\PC 2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect v2\\InstantScoreNewsTests\\obj\\",
+        "outputPath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\InstantScoreNewsTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC 2\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect v2\\InstantScoreNewsLib\\InstantScoreNewsLib.csproj": {
-                "projectPath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect v2\\InstantScoreNewsLib\\InstantScoreNewsLib.csproj"
+              "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\InstantScoreNewsLib\\InstantScoreNewsLib.csproj": {
+                "projectPath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\InstantScoreNewsLib\\InstantScoreNewsLib.csproj"
               }
             }
           }

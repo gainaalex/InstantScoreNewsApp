@@ -16,7 +16,7 @@ namespace InstantScoreNewsLib
 {
     /// <summary>
     /// Clasa ce constituie subiectul observatorilor, 
-    /// aceasta notifica toti userii de actiunile Adminului
+    /// aceasta notifica toti obervatorii de actiunile subiectului
     /// </summary>
     public interface Subject
     {

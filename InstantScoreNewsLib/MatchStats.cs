@@ -23,7 +23,7 @@ namespace InstantScoreNewsLib
     public class Event
     {
         public int minut;
-        public String descriere;
+        public string descriere;
 
         public Event(int minut, string descriere)
         {
@@ -99,6 +99,14 @@ namespace InstantScoreNewsLib
             {
                 return _evenimente;
             }
+        }
+        public Match(Match m)
+        {
+            this._gazda = m.Gazda;
+            this._oaspete=m.Oaspete;
+            this.ScorGazda=m.ScorGazda;
+            this._scorOaspete = m.ScorOaspete;
+            _evenimente = new List<Event>();
         }
         public Match(string gazda, string oaspete, int scorGazda, int scorOaspete)
         {

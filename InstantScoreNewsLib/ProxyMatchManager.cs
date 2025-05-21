@@ -62,6 +62,15 @@ namespace InstantScoreNewsLib
             SubscribeAllUsers();
         }
 
+        private void SubscribeAllUsers()
+        {
+            foreach (User user in _users)
+            {
+                if (!user.isAdmin())
+                    Attach(user);
+            }
+        }
+
         public bool Login(String username, String password)
         {
             // determinare hash parola introdusa de user
@@ -113,8 +122,9 @@ namespace InstantScoreNewsLib
         {
             if (UserIsAdmin())
             {
+                Match copy = new Match(match);
                 _realMatchManager.UpdateMatch(match,newMatch);
-                Notify("Meci actualizat: "+match.ToString()+" -> "+newMatch.ToString());
+                Notify("Meci actualizat: "+ copy.ToString()+" -> "+newMatch.ToString());
             }
         }
 
@@ -185,15 +195,5 @@ namespace InstantScoreNewsLib
                 subscriber.Update(notificare);
             }
         }
-
-        private void SubscribeAllUsers()
-        { 
-            foreach(User user in _users)
-            {
-                if(!user.isAdmin())
-                    Attach(user);
-            }
-        }
-
     }
 }
