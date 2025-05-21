@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "InstantScoreNewsApp/1.0.0": {
+        "dependencies": {
+          "InstantScoreNewsLib": "1.0.0"
+        },
+        "runtime": {
+          "InstantScoreNewsApp.dll": {}
+        }
+      },
+      "InstantScoreNewsLib/1.0.0": {
+        "runtime": {
+          "InstantScoreNewsLib.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "InstantScoreNewsApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InstantScoreNewsLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
