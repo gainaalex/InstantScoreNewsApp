@@ -1,7 +1,7 @@
 ﻿/************************************************************
  * Autor: Gaina Alexandru
  * Data crearii: 2025-05-20
- * Ultima modificare: 2025-05-20
+ * Ultima modificare: 2025-05-23
  * Fisier: Login.cs
  * Functionalitate: Consituie interfata de log in
  ************************************************************/

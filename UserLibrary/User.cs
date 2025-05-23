@@ -1,7 +1,7 @@
 ﻿/************************************************************
  * Autor: Gaina Alexandru
  * Data crearii: 2025-05-20
- * Ultima modificare: 2025-05-20
+ * Ultima modificare: 2025-05-23
  * Fisier: User.cs
  * Functionalitate: Constituie implementarea interfetei Subscriber, clasa fiind folosita pentru a stoca date despre user/admin
  ************************************************************/

@@ -1,7 +1,7 @@
 ﻿/************************************************************
  * Autor: Gaina Alexandru
  * Data crearii: 2025-05-20
- * Ultima modificare: 2025-05-20
+ * Ultima modificare: 2025-05-23
  * Fisier: ProxyMatchManager.cs
  * Functionalitate: Conține logica de identificare a utilizatotului conectat si posibilitatile acestuia
  ************************************************************/
