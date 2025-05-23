@@ -1,0 +1,6 @@
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\ObserverLib\bin\Debug\ObserverLib.dll
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\ObserverLib\bin\Debug\ObserverLib.pdb
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\ObserverLib\obj\Debug\ObserverLib.csproj.AssemblyReference.cache
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\ObserverLib\obj\Debug\ObserverLib.csproj.CoreCompileInputs.cache
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\ObserverLib\obj\Debug\ObserverLib.dll
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\ObserverLib\obj\Debug\ObserverLib.pdb

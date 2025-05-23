@@ -51,8 +51,6 @@ C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\InstantScoreNewsApp\bin\D
 C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\InstantScoreNewsApp\bin\Debug\net8.0-windows\InstantScoreNewsApp.runtimeconfig.json
 C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\InstantScoreNewsApp\bin\Debug\net8.0-windows\InstantScoreNewsApp.dll
 C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\InstantScoreNewsApp\bin\Debug\net8.0-windows\InstantScoreNewsApp.pdb
-C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\InstantScoreNewsApp\bin\Debug\net8.0-windows\InstantScoreNewsLib.dll
-C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\InstantScoreNewsApp\bin\Debug\net8.0-windows\InstantScoreNewsLib.pdb
 C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\InstantScoreNewsApp\obj\Debug\net8.0-windows\InstantScoreNewsApp.csproj.AssemblyReference.cache
 C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\InstantScoreNewsApp\obj\Debug\net8.0-windows\InstantScoreNewsApp.EventForm.resources
 C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\InstantScoreNewsApp\obj\Debug\net8.0-windows\InstantScoreNewsApp.InstantScoreNews.resources
@@ -71,3 +69,13 @@ C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\InstantScoreNewsApp\obj\D
 C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\InstantScoreNewsApp\obj\Debug\net8.0-windows\InstantScoreNewsApp.pdb
 C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\InstantScoreNewsApp\obj\Debug\net8.0-windows\InstantScoreNewsApp.genruntimeconfig.cache
 C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\InstantScoreNewsApp\obj\Debug\net8.0-windows\ref\InstantScoreNewsApp.dll
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\InstantScoreNewsApp\bin\Debug\net8.0-windows\MatchManagerLib.dll
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\InstantScoreNewsApp\bin\Debug\net8.0-windows\MatchStats.dll
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\InstantScoreNewsApp\bin\Debug\net8.0-windows\ObserverLib.dll
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\InstantScoreNewsApp\bin\Debug\net8.0-windows\PasswordHasher.dll
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\InstantScoreNewsApp\bin\Debug\net8.0-windows\UserLibrary.dll
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\InstantScoreNewsApp\bin\Debug\net8.0-windows\MatchManagerLib.pdb
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\InstantScoreNewsApp\bin\Debug\net8.0-windows\MatchStats.pdb
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\InstantScoreNewsApp\bin\Debug\net8.0-windows\ObserverLib.pdb
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\InstantScoreNewsApp\bin\Debug\net8.0-windows\PasswordHasher.pdb
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\InstantScoreNewsApp\bin\Debug\net8.0-windows\UserLibrary.pdb

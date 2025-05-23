@@ -16,7 +16,9 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using InstantScoreNewsLib;
+using MatchStats;
+
+
 namespace InstantScoreNewsApp
 {
     public partial class EventForm : Form

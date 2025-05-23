@@ -28,8 +28,20 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\InstantScoreNewsLib\\InstantScoreNewsLib.csproj": {
-                "projectPath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\InstantScoreNewsLib\\InstantScoreNewsLib.csproj"
+              "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\MatchManagerLib\\MatchManagerLib.csproj": {
+                "projectPath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\MatchManagerLib\\MatchManagerLib.csproj"
+              },
+              "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\MatchStats\\MatchStats.csproj": {
+                "projectPath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\MatchStats\\MatchStats.csproj"
+              },
+              "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\ObserverLib\\ObserverLib.csproj": {
+                "projectPath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\ObserverLib\\ObserverLib.csproj"
+              },
+              "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\PasswordHasher\\PasswordHasher.csproj": {
+                "projectPath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\PasswordHasher\\PasswordHasher.csproj"
+              },
+              "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\UserLibrary\\UserLibrary.csproj": {
+                "projectPath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\UserLibrary\\UserLibrary.csproj"
               }
             }
           }
@@ -66,59 +78,83 @@
         }
       }
     },
-    "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\InstantScoreNewsLib\\InstantScoreNewsLib.csproj": {
-      "version": "1.0.0",
+    "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\MatchManagerLib\\MatchManagerLib.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\InstantScoreNewsLib\\InstantScoreNewsLib.csproj",
-        "projectName": "InstantScoreNewsLib",
-        "projectPath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\InstantScoreNewsLib\\InstantScoreNewsLib.csproj",
-        "packagesPath": "C:\\Users\\PC 2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\InstantScoreNewsLib\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\PC 2\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
+        "projectUniqueName": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\MatchManagerLib\\MatchManagerLib.csproj",
+        "projectName": "MatchManagerLib",
+        "projectPath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\MatchManagerLib\\MatchManagerLib.csproj",
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {}
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\UserLibrary\\UserLibrary.csproj": {
+                "projectPath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\UserLibrary\\UserLibrary.csproj"
+              }
+            }
           }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
+        "net472": {}
+      }
+    },
+    "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\MatchStats\\MatchStats.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\MatchStats\\MatchStats.csproj",
+        "projectName": "MatchStats",
+        "projectPath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\MatchStats\\MatchStats.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
         }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\ObserverLib\\ObserverLib.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\ObserverLib\\ObserverLib.csproj",
+        "projectName": "ObserverLib",
+        "projectPath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\ObserverLib\\ObserverLib.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\PasswordHasher\\PasswordHasher.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\PasswordHasher\\PasswordHasher.csproj",
+        "projectName": "PasswordHasher",
+        "projectPath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\PasswordHasher\\PasswordHasher.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\UserLibrary\\UserLibrary.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\UserLibrary\\UserLibrary.csproj",
+        "projectName": "UserLibrary",
+        "projectPath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\UserLibrary\\UserLibrary.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }

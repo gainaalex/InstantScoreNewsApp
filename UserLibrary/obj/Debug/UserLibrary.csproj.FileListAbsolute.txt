@@ -1,0 +1,9 @@
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\UserLibrary\obj\Debug\UserLibrary.csproj.AssemblyReference.cache
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\UserLibrary\obj\Debug\UserLibrary.csproj.CoreCompileInputs.cache
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\UserLibrary\bin\Debug\UserLibrary.dll
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\UserLibrary\bin\Debug\UserLibrary.pdb
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\UserLibrary\bin\Debug\ObserverLib.dll
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\UserLibrary\bin\Debug\ObserverLib.pdb
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\UserLibrary\obj\Debug\UserLibrary.csproj.CopyComplete
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\UserLibrary\obj\Debug\UserLibrary.dll
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\UserLibrary\obj\Debug\UserLibrary.pdb

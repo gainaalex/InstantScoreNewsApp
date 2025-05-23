@@ -17,7 +17,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using InstantScoreNewsLib;
+using MatchStats;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 namespace InstantScoreNewsApp
 {

@@ -1,0 +1,6 @@
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\MatchStats\bin\Debug\MatchStats.dll
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\MatchStats\bin\Debug\MatchStats.pdb
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\MatchStats\obj\Debug\MatchStats.csproj.AssemblyReference.cache
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\MatchStats\obj\Debug\MatchStats.csproj.CoreCompileInputs.cache
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\MatchStats\obj\Debug\MatchStats.dll
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\MatchStats\obj\Debug\MatchStats.pdb

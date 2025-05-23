@@ -2,28 +2,90 @@
   "version": 3,
   "targets": {
     "net8.0-windows7.0": {
-      "InstantScoreNewsLib/1.0.0": {
+      "MatchManagerLib/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "UserLibrary": "1.0.0"
+        },
         "compile": {
-          "bin/placeholder/InstantScoreNewsLib.dll": {}
+          "bin/placeholder/MatchManagerLib.dll": {}
         },
         "runtime": {
-          "bin/placeholder/InstantScoreNewsLib.dll": {}
+          "bin/placeholder/MatchManagerLib.dll": {}
+        }
+      },
+      "MatchStats/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/MatchStats.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MatchStats.dll": {}
+        }
+      },
+      "ObserverLib/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/ObserverLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ObserverLib.dll": {}
+        }
+      },
+      "PasswordHasher/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/PasswordHasher.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PasswordHasher.dll": {}
+        }
+      },
+      "UserLibrary/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/UserLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserLibrary.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "InstantScoreNewsLib/1.0.0": {
+    "MatchManagerLib/1.0.0": {
       "type": "project",
-      "path": "../InstantScoreNewsLib/InstantScoreNewsLib.csproj",
-      "msbuildProject": "../InstantScoreNewsLib/InstantScoreNewsLib.csproj"
+      "path": "../MatchManagerLib/MatchManagerLib.csproj",
+      "msbuildProject": "../MatchManagerLib/MatchManagerLib.csproj"
+    },
+    "MatchStats/1.0.0": {
+      "type": "project",
+      "path": "../MatchStats/MatchStats.csproj",
+      "msbuildProject": "../MatchStats/MatchStats.csproj"
+    },
+    "ObserverLib/1.0.0": {
+      "type": "project",
+      "path": "../ObserverLib/ObserverLib.csproj",
+      "msbuildProject": "../ObserverLib/ObserverLib.csproj"
+    },
+    "PasswordHasher/1.0.0": {
+      "type": "project",
+      "path": "../PasswordHasher/PasswordHasher.csproj",
+      "msbuildProject": "../PasswordHasher/PasswordHasher.csproj"
+    },
+    "UserLibrary/1.0.0": {
+      "type": "project",
+      "path": "../UserLibrary/UserLibrary.csproj",
+      "msbuildProject": "../UserLibrary/UserLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
-      "InstantScoreNewsLib >= 1.0.0"
+      "MatchManagerLib >= 1.0.0",
+      "MatchStats >= 1.0.0",
+      "ObserverLib >= 1.0.0",
+      "PasswordHasher >= 1.0.0",
+      "UserLibrary >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -53,8 +115,20 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\InstantScoreNewsLib\\InstantScoreNewsLib.csproj": {
-              "projectPath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\InstantScoreNewsLib\\InstantScoreNewsLib.csproj"
+            "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\MatchManagerLib\\MatchManagerLib.csproj": {
+              "projectPath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\MatchManagerLib\\MatchManagerLib.csproj"
+            },
+            "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\MatchStats\\MatchStats.csproj": {
+              "projectPath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\MatchStats\\MatchStats.csproj"
+            },
+            "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\ObserverLib\\ObserverLib.csproj": {
+              "projectPath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\ObserverLib\\ObserverLib.csproj"
+            },
+            "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\PasswordHasher\\PasswordHasher.csproj": {
+              "projectPath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\PasswordHasher\\PasswordHasher.csproj"
+            },
+            "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\UserLibrary\\UserLibrary.csproj": {
+              "projectPath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\UserLibrary\\UserLibrary.csproj"
             }
           }
         }

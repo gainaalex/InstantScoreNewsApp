@@ -6,17 +6,18 @@
  * Functionalitate: Consituie interfata ce intampina userul si se modifica in functie de tipul utilizatorului
  ************************************************************/
 
-using InstantScoreNewsLib;
 using Microsoft.VisualBasic.ApplicationServices;
 using System.Diagnostics;
 using System.Text.RegularExpressions;
+using MatchManager;
+using MatchStats;
 
 namespace InstantScoreNewsApp;
 
 public partial class InstantScoreNews : Form
 {
     private ProxyMatchManager _matchManager;
-    private InstantScoreNewsLib.Match _currentMatch;
+    private MatchStats.Match _currentMatch;
     public InstantScoreNews()
     {
         InitializeComponent();
@@ -127,7 +128,7 @@ public partial class InstantScoreNews : Form
     /// <param name="e"></param>
     private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
     {
-        InstantScoreNewsLib.Match m = listBox1.SelectedItem as InstantScoreNewsLib.Match;
+        MatchStats.Match m = listBox1.SelectedItem as MatchStats.Match;
         if (m != null)
         {
             _currentMatch = m;

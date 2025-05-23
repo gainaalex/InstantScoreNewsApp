@@ -1,0 +1,15 @@
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\MatchManagerLib\obj\Debug\MatchManagerLib.csproj.AssemblyReference.cache
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\MatchManagerLib\obj\Debug\MatchManagerLib.csproj.CoreCompileInputs.cache
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\MatchManagerLib\bin\Debug\MatchManagerLib.dll
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\MatchManagerLib\bin\Debug\MatchManagerLib.pdb
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\MatchManagerLib\bin\Debug\MatchStats.dll
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\MatchManagerLib\bin\Debug\ObserverLib.dll
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\MatchManagerLib\bin\Debug\PasswordHasher.dll
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\MatchManagerLib\bin\Debug\UserLibrary.dll
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\MatchManagerLib\bin\Debug\UserLibrary.pdb
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\MatchManagerLib\bin\Debug\MatchStats.pdb
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\MatchManagerLib\bin\Debug\ObserverLib.pdb
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\MatchManagerLib\bin\Debug\PasswordHasher.pdb
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\MatchManagerLib\obj\Debug\MatchManagerLib.csproj.CopyComplete
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\MatchManagerLib\obj\Debug\MatchManagerLib.dll
+C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\MatchManagerLib\obj\Debug\MatchManagerLib.pdb

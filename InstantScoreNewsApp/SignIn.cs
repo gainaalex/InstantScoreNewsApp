@@ -6,7 +6,7 @@
  * Functionalitate: Consituie interfata de sign in/ inregistare
  ************************************************************/
 
-using InstantScoreNewsLib;
+using MatchManager;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;

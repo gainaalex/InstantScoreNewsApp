@@ -9,7 +9,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\InstantScoreNewsLib\InstantScoreNewsLib.csproj" />
+    <ProjectReference Include="..\MatchManagerLib\MatchManagerLib.csproj" />
+    <ProjectReference Include="..\MatchStats\MatchStats.csproj" />
+    <ProjectReference Include="..\ObserverLib\ObserverLib.csproj" />
+    <ProjectReference Include="..\PasswordHasher\PasswordHasher.csproj" />
+    <ProjectReference Include="..\UserLibrary\UserLibrary.csproj" />
   </ItemGroup>
 
 </Project>
