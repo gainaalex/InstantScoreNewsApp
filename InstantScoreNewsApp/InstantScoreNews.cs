@@ -201,10 +201,10 @@ public partial class InstantScoreNews : Form
             DialogResult = ef.ShowDialog();
             if (DialogResult == DialogResult.OK)
             {
-                _matchManager.UpdateEvent(_currentMatch,evenim, ef.eveniment);
+                _matchManager.UpdateEvent(_currentMatch, evenim, ef.eveniment);
                 UpdateEventListBox();
             }
-            
+
         }
         else
         {
@@ -224,6 +224,30 @@ public partial class InstantScoreNews : Form
         else
         {
             MessageBox.Show("Pentru a sterge un eveniment mai intai trebuie sa-l selectezi", "Eroare", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+        }
+    }
+
+    private void buttonHelp_Click_1(object sender, EventArgs e)
+    {
+        try
+        {
+            string helpPath = System.IO.Path.Combine(
+                System.Environment.CurrentDirectory, "InstantScore.chm");
+
+            if (System.IO.File.Exists(helpPath))
+            {
+                Help.ShowHelp(this, helpPath);
+            }
+            else
+            {
+                MessageBox.Show("Fisierul de ajutor nu a fost gasit.",
+                                "Eroare", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+        catch (Exception ex)
+        {
+            MessageBox.Show("A aparut o eroare la deschiderea fisierului de ajutor:\n" + ex.Message,
+                            "Eroare", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
     }
 }

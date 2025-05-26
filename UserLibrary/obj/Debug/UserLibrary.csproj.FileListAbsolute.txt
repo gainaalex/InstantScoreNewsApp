@@ -7,3 +7,12 @@ C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\UserLibrary\bin\Debug\Obs
 C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\UserLibrary\obj\Debug\UserLibrary.csproj.CopyComplete
 C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\UserLibrary\obj\Debug\UserLibrary.dll
 C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\UserLibrary\obj\Debug\UserLibrary.pdb
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\UserLibrary\bin\Debug\UserLibrary.dll
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\UserLibrary\bin\Debug\UserLibrary.pdb
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\UserLibrary\bin\Debug\ObserverLib.dll
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\UserLibrary\bin\Debug\ObserverLib.pdb
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\UserLibrary\obj\Debug\UserLibrary.csproj.AssemblyReference.cache
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\UserLibrary\obj\Debug\UserLibrary.csproj.CoreCompileInputs.cache
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\UserLibrary\obj\Debug\UserLibr.4BF11E1E.Up2Date
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\UserLibrary\obj\Debug\UserLibrary.dll
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\UserLibrary\obj\Debug\UserLibrary.pdb

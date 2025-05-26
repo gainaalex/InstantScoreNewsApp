@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>InstantScoreNews - Modul Administrator</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 40px;
+            line-height: 1.6;
+        }
+
+        h1 {
+            color: #0056b3;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            color: #0074d9;
+            margin-top: 30px;
+        }
+
+        h3 {
+            color: #0056b3;
+            margin-top: 25px;
+        }
+
+        ul {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        img {
+            max-width: 100%;
+            border: 1px solid #ccc;
+            margin: 20px 0;
+        }
+
+        hr {
+            margin-top: 40px;
+            border: 0;
+            height: 1px;
+            background: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Modul Administrator</h1>
+
+    <p>Dacă ai acces ca administrator, aplicația InstantScoreNews îți oferă posibilitatea completă de a gestiona meciurile și evenimentele din sistem.</p>
+
+    <h2>Interfața administratorului</h2>
+
+    <img src="admin.png" alt="Modul admin InstantScoreNews">
+
+    <p>În această stare, aplicația indică <strong>"Bine ai venit, admin!"</strong> și permite utilizarea tuturor butoanelor:</p>
+
+    <h3>Butoane disponibile</h3>
+
+    <ul>
+        <li><strong>Login</strong> – butonul rămâne activ pentru a permite autentificarea unui alt cont (opțional).</li>
+        <li><strong>LogOut</strong> – deconectează utilizatorul curent (admin).</li>
+    </ul>
+
+    <h3>Secțiunea "Control Meciuri"</h3>
+    <ul>
+        <li><strong>Adăugare</strong> – deschide o fereastră unde poți introduce detalii despre un meci nou (echipe, scor; cu mențiunea gazdă/oaspete).</li>
+        <img src="add_match.png" alt="Adăugare meci" width="400">
+        <li><strong>Modificare</strong> – permite editarea unui meci selectat din listă.</li>
+        <li><strong>Eliminare</strong> – șterge meciul selectat din listă. Atenție: operațiunea este definitivă.</li>
+    </ul>
+
+    <h3>Secțiunea "Control Evenimente"</h3>
+    <ul>
+        <li><strong>Adăugare</strong> – deschide o fereastră pentru adăugarea unui eveniment la un meci (ex: gol, fault, schimbare; cu mențiunea minutului).</li>
+        <img src="add_event.png" alt="Adăugare eveniment" width="300">
+        <li><strong>Modificare</strong> – editează un eveniment existent.</li>
+        <li><strong>Eliminare</strong> – șterge un eveniment selectat.</li>
+    </ul>
+
+    <h3>Listă meciuri</h3>
+    <p>În partea stângă apare lista meciurilor curente. Poți selecta unul pentru a-l modifica sau a-i adăuga evenimente.</p>
+
+    <h3>Listă evenimente</h3>
+    <p>În partea dreaptă va fi afișată lista evenimentelor asociate meciului selectat. Dacă lista e goală, înseamnă că nu a fost selectat niciun meci sau nu există evenimente înregistrate.</p>
+
+    <hr>
+    <p><a href="index.html">Înapoi la pagina principală</a></p>
+    <p>&copy; 2025 InstantScoreNews - Toate drepturile rezervate.</p>
+</body>
+</html>

@@ -4,3 +4,9 @@ C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\MatchStats\obj\Debug\Matc
 C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\MatchStats\obj\Debug\MatchStats.csproj.CoreCompileInputs.cache
 C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\MatchStats\obj\Debug\MatchStats.dll
 C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\MatchStats\obj\Debug\MatchStats.pdb
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\MatchStats\bin\Debug\MatchStats.dll
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\MatchStats\bin\Debug\MatchStats.pdb
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\MatchStats\obj\Debug\MatchStats.csproj.AssemblyReference.cache
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\MatchStats\obj\Debug\MatchStats.csproj.CoreCompileInputs.cache
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\MatchStats\obj\Debug\MatchStats.dll
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\MatchStats\obj\Debug\MatchStats.pdb

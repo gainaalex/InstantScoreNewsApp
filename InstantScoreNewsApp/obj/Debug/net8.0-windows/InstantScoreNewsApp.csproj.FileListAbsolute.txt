@@ -79,3 +79,36 @@ C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\InstantScoreNewsApp\bin\D
 C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\InstantScoreNewsApp\bin\Debug\net8.0-windows\ObserverLib.pdb
 C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\InstantScoreNewsApp\bin\Debug\net8.0-windows\PasswordHasher.pdb
 C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\InstantScoreNewsApp\bin\Debug\net8.0-windows\UserLibrary.pdb
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\InstantScoreNewsApp\bin\Debug\net8.0-windows\InstantScoreNewsApp.exe
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\InstantScoreNewsApp\bin\Debug\net8.0-windows\InstantScoreNewsApp.deps.json
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\InstantScoreNewsApp\bin\Debug\net8.0-windows\InstantScoreNewsApp.runtimeconfig.json
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\InstantScoreNewsApp\bin\Debug\net8.0-windows\InstantScoreNewsApp.dll
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\InstantScoreNewsApp\bin\Debug\net8.0-windows\InstantScoreNewsApp.pdb
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\InstantScoreNewsApp\bin\Debug\net8.0-windows\MatchManagerLib.dll
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\InstantScoreNewsApp\bin\Debug\net8.0-windows\MatchStats.dll
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\InstantScoreNewsApp\bin\Debug\net8.0-windows\ObserverLib.dll
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\InstantScoreNewsApp\bin\Debug\net8.0-windows\PasswordHasher.dll
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\InstantScoreNewsApp\bin\Debug\net8.0-windows\UserLibrary.dll
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\InstantScoreNewsApp\bin\Debug\net8.0-windows\MatchManagerLib.pdb
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\InstantScoreNewsApp\bin\Debug\net8.0-windows\MatchStats.pdb
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\InstantScoreNewsApp\bin\Debug\net8.0-windows\ObserverLib.pdb
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\InstantScoreNewsApp\bin\Debug\net8.0-windows\PasswordHasher.pdb
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\InstantScoreNewsApp\bin\Debug\net8.0-windows\UserLibrary.pdb
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\InstantScoreNewsApp\obj\Debug\net8.0-windows\InstantScoreNewsApp.csproj.AssemblyReference.cache
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\InstantScoreNewsApp\obj\Debug\net8.0-windows\InstantScoreNewsApp.EventForm.resources
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\InstantScoreNewsApp\obj\Debug\net8.0-windows\InstantScoreNewsApp.InstantScoreNews.resources
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\InstantScoreNewsApp\obj\Debug\net8.0-windows\InstantScoreNewsApp.Login.resources
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\InstantScoreNewsApp\obj\Debug\net8.0-windows\InstantScoreNewsApp.MatchForm.resources
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\InstantScoreNewsApp\obj\Debug\net8.0-windows\InstantScoreNewsApp.SignIn.resources
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\InstantScoreNewsApp\obj\Debug\net8.0-windows\InstantScoreNewsApp.csproj.GenerateResource.cache
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\InstantScoreNewsApp\obj\Debug\net8.0-windows\InstantScoreNewsApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\InstantScoreNewsApp\obj\Debug\net8.0-windows\InstantScoreNewsApp.AssemblyInfoInputs.cache
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\InstantScoreNewsApp\obj\Debug\net8.0-windows\InstantScoreNewsApp.AssemblyInfo.cs
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\InstantScoreNewsApp\obj\Debug\net8.0-windows\InstantScoreNewsApp.csproj.CoreCompileInputs.cache
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\InstantScoreNewsApp\obj\Debug\net8.0-windows\InstantScoreNewsApp.sourcelink.json
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\InstantScoreNewsApp\obj\Debug\net8.0-windows\InstantS.3AC67A7D.Up2Date
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\InstantScoreNewsApp\obj\Debug\net8.0-windows\InstantScoreNewsApp.dll
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\InstantScoreNewsApp\obj\Debug\net8.0-windows\refint\InstantScoreNewsApp.dll
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\InstantScoreNewsApp\obj\Debug\net8.0-windows\InstantScoreNewsApp.pdb
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\InstantScoreNewsApp\obj\Debug\net8.0-windows\InstantScoreNewsApp.genruntimeconfig.cache
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\InstantScoreNewsApp\obj\Debug\net8.0-windows\ref\InstantScoreNewsApp.dll

@@ -1,0 +1,24 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="autentificare">
+		<param name="Name" value="InstantScoreNews - Ghid Utilizare">
+		<param name="Local" value="index.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="user">
+		<param name="Name" value="InstantScoreNews - Modul Utilizator">
+		<param name="Local" value="user.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="admin">
+		<param name="Name" value="InstantScoreNews - Modul Administrator">
+		<param name="Local" value="admin.html">
+		</OBJECT>
+</UL>
+</BODY></HTML>

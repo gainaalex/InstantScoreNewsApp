@@ -13,3 +13,18 @@ C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\MatchManagerLib\bin\Debug
 C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\MatchManagerLib\obj\Debug\MatchManagerLib.csproj.CopyComplete
 C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\MatchManagerLib\obj\Debug\MatchManagerLib.dll
 C:\Users\PC 2\Desktop\Anul 3\SEMESTRUL 2\IP\Proiect IP\MatchManagerLib\obj\Debug\MatchManagerLib.pdb
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\MatchManagerLib\bin\Debug\MatchManagerLib.dll
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\MatchManagerLib\bin\Debug\MatchManagerLib.pdb
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\MatchManagerLib\bin\Debug\MatchStats.dll
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\MatchManagerLib\bin\Debug\ObserverLib.dll
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\MatchManagerLib\bin\Debug\PasswordHasher.dll
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\MatchManagerLib\bin\Debug\UserLibrary.dll
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\MatchManagerLib\bin\Debug\UserLibrary.pdb
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\MatchManagerLib\bin\Debug\MatchStats.pdb
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\MatchManagerLib\bin\Debug\ObserverLib.pdb
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\MatchManagerLib\bin\Debug\PasswordHasher.pdb
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\MatchManagerLib\obj\Debug\MatchManagerLib.csproj.AssemblyReference.cache
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\MatchManagerLib\obj\Debug\MatchManagerLib.csproj.CoreCompileInputs.cache
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\MatchManagerLib\obj\Debug\MatchMan.37C95C32.Up2Date
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\MatchManagerLib\obj\Debug\MatchManagerLib.dll
+C:\Users\ruben\OneDrive\Desktop\facultate\AN_3\ingineria_programarii\InstantScoreNewsApp\MatchManagerLib\obj\Debug\MatchManagerLib.pdb

@@ -1,0 +1,19 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=InstantScore.chm
+Contents file=Table of Contents.hhc
+Default topic=index.html
+Display compile progress=No
+Full-text search=Yes
+Index file=IndexFile.hhk
+Language=0x409 English (United States)
+Title=index
+
+
+[FILES]
+admin.html
+index.html
+user.html
+
+[INFOTYPES]
+
