@@ -1,3 +1,10 @@
+/************************************************************
+ * Autor: Gaina Alexandru
+ * Data crearii: 2025-05-20
+ * Ultima modificare: 2025-05-25
+ * Fisier: UnitTest1.cs
+ * Functionalitate: Teste pentru functionalitatea aplicatiei
+ ************************************************************/
 using MatchManager;
 using PasswordHasher;
 using UserLib;
@@ -71,6 +78,14 @@ public class UnitTest1
     public void User_constructor_5()
     {
         User user = new User("qwertyuiopasdfghj", "parola", 0);
+    }
+
+    //sunt permise doar litere , numere si '_'
+    [TestMethod]
+    [ExpectedException(typeof(ArgumentException))]
+    public void User_constructor_6()
+    {
+        User user = new User("beto.4", "parola", 0);
     }
 
 }
