@@ -22,7 +22,10 @@ namespace UserLib
         private readonly string _username, _password;
         private readonly int _accesType;
         
-        public List<string> Notificari { get; }
+        public List<string> Notificari 
+        { 
+            get; 
+        }
         public User(in string username, in string password,in int accesType) 
         {
             //cerinta de format al username ului

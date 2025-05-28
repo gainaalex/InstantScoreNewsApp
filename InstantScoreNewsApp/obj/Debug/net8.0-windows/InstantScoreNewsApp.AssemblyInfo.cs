@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InstantScoreNewsApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+830a200dbbd087e2f1f0db55d48d506fb99a979e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d8abb7996965b3ea1c2804a062a4fc0d4d752df")]
 [assembly: System.Reflection.AssemblyProductAttribute("InstantScoreNewsApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InstantScoreNewsApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

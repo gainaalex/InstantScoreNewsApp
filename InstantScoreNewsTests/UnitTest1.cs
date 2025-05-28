@@ -1,5 +1,6 @@
 using MatchManager;
 using PasswordHasher;
+using UserLib;
 namespace InstantScoreNewsTests;
 
 [TestClass]
@@ -37,5 +38,39 @@ public class UnitTest1
     }
 
 
+    [TestMethod]
+    [ExpectedException(typeof(ArgumentException))]
+    public void User_constructor_1()
+    {
+        User user = new User(".","parola",0);
+    }
+
+    [TestMethod]
+    public void User_constructor_2()
+    {
+        User user = new User("1234", "parola", 0);
+    }
+    // nu poti avea '.' in username
+    [TestMethod]
+    [ExpectedException(typeof(ArgumentException))]
+    public void User_constructor_3()
+    {
+        User user = new User("Gaina.10", "parola", 0);
+    }
+    //trebuie sa aiba minim 3 caractere username-ul
+    [TestMethod]
+    [ExpectedException(typeof(ArgumentException))]
+    public void User_constructor_4()
+    {
+        User user = new User("gx", "parola", 0);
+    }
+
+    //trebuie sa aiba maxim 16 caractere username-ul
+    [TestMethod]
+    [ExpectedException(typeof(ArgumentException))]
+    public void User_constructor_5()
+    {
+        User user = new User("qwertyuiopasdfghj", "parola", 0);
+    }
 
 }
