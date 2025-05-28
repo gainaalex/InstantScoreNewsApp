@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InstantScoreNewsTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6ce37d9673776f1b6e100395e2aa50741785653")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+830a200dbbd087e2f1f0db55d48d506fb99a979e")]
 [assembly: System.Reflection.AssemblyProductAttribute("InstantScoreNewsTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InstantScoreNewsTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
