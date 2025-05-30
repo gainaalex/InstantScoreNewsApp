@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MatchManagerLib\MatchManagerLib.csproj" />
+    <ProjectReference Include="..\MatchStats\MatchStats.csproj" />
     <ProjectReference Include="..\PasswordHasher\PasswordHasher.csproj" />
   </ItemGroup>
 

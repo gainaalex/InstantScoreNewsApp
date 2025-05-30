@@ -402,6 +402,15 @@
           "bin/placeholder/MatchManagerLib.dll": {}
         }
       },
+      "MatchStats/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/MatchStats.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MatchStats.dll": {}
+        }
+      },
       "PasswordHasher/1.0.0": {
         "type": "project",
         "compile": {
@@ -1022,6 +1031,11 @@
       "path": "../MatchManagerLib/MatchManagerLib.csproj",
       "msbuildProject": "../MatchManagerLib/MatchManagerLib.csproj"
     },
+    "MatchStats/1.0.0": {
+      "type": "project",
+      "path": "../MatchStats/MatchStats.csproj",
+      "msbuildProject": "../MatchStats/MatchStats.csproj"
+    },
     "PasswordHasher/1.0.0": {
       "type": "project",
       "path": "../PasswordHasher/PasswordHasher.csproj",
@@ -1038,25 +1052,31 @@
       "MSTest.TestAdapter >= 3.1.1",
       "MSTest.TestFramework >= 3.1.1",
       "MatchManagerLib >= 1.0.0",
+      "MatchStats >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
       "PasswordHasher >= 1.0.0",
       "coverlet.collector >= 6.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PC 2\\.nuget\\packages\\": {}
+    "C:\\Users\\ruben\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\InstantScoreNewsTests\\InstantScoreNewsTests.csproj",
+      "projectUniqueName": "C:\\Users\\ruben\\OneDrive\\Desktop\\facultate\\AN_3\\ingineria_programarii\\InstantScoreNewsApp\\InstantScoreNewsTests\\InstantScoreNewsTests.csproj",
       "projectName": "InstantScoreNewsTests",
-      "projectPath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\InstantScoreNewsTests\\InstantScoreNewsTests.csproj",
-      "packagesPath": "C:\\Users\\PC 2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\InstantScoreNewsTests\\obj\\",
+      "projectPath": "C:\\Users\\ruben\\OneDrive\\Desktop\\facultate\\AN_3\\ingineria_programarii\\InstantScoreNewsApp\\InstantScoreNewsTests\\InstantScoreNewsTests.csproj",
+      "packagesPath": "C:\\Users\\ruben\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ruben\\OneDrive\\Desktop\\facultate\\AN_3\\ingineria_programarii\\InstantScoreNewsApp\\InstantScoreNewsTests\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\PC 2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ruben\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1070,11 +1090,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\MatchManagerLib\\MatchManagerLib.csproj": {
-              "projectPath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\MatchManagerLib\\MatchManagerLib.csproj"
+            "C:\\Users\\ruben\\OneDrive\\Desktop\\facultate\\AN_3\\ingineria_programarii\\InstantScoreNewsApp\\MatchManagerLib\\MatchManagerLib.csproj": {
+              "projectPath": "C:\\Users\\ruben\\OneDrive\\Desktop\\facultate\\AN_3\\ingineria_programarii\\InstantScoreNewsApp\\MatchManagerLib\\MatchManagerLib.csproj"
             },
-            "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\PasswordHasher\\PasswordHasher.csproj": {
-              "projectPath": "C:\\Users\\PC 2\\Desktop\\Anul 3\\SEMESTRUL 2\\IP\\Proiect IP\\PasswordHasher\\PasswordHasher.csproj"
+            "C:\\Users\\ruben\\OneDrive\\Desktop\\facultate\\AN_3\\ingineria_programarii\\InstantScoreNewsApp\\MatchStats\\MatchStats.csproj": {
+              "projectPath": "C:\\Users\\ruben\\OneDrive\\Desktop\\facultate\\AN_3\\ingineria_programarii\\InstantScoreNewsApp\\MatchStats\\MatchStats.csproj"
+            },
+            "C:\\Users\\ruben\\OneDrive\\Desktop\\facultate\\AN_3\\ingineria_programarii\\InstantScoreNewsApp\\PasswordHasher\\PasswordHasher.csproj": {
+              "projectPath": "C:\\Users\\ruben\\OneDrive\\Desktop\\facultate\\AN_3\\ingineria_programarii\\InstantScoreNewsApp\\PasswordHasher\\PasswordHasher.csproj"
             }
           }
         }
@@ -1083,7 +1106,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -1122,7 +1151,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
