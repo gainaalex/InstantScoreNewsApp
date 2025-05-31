@@ -26,6 +26,14 @@ namespace UserLib
         { 
             get; 
         }
+
+        /// <summary>
+        /// Constructor pentru clasa User.
+        /// Verifica formatul username-ului si initializeaza datele utilizatorului.
+        /// </summary>
+        /// <param name="username">Numele de utilizator (3-16 caractere, litere, cifre, underscore)</param>
+        /// <param name="password">Parola (hashuita)</param>
+        /// <param name="accesType">Tipul de acces (-1 pentru admin, 0 pentru user obisnuit)</param>
         public User(in string username, in string password,in int accesType) 
         {
             //cerinta de format al username ului
@@ -40,6 +48,10 @@ namespace UserLib
             _accesType = accesType;
             Notificari = new List<string>();
         }
+
+        /// <summary>
+        /// Returneaza numele de utilizator.
+        /// </summary>
         public string Username
         {
             get
@@ -47,6 +59,10 @@ namespace UserLib
                 return _username;
             }
         }
+
+        /// <summary>
+        /// Returneaza parola utilizatorului (hashuita).
+        /// </summary>
         public string Password 
         { 
             get 
@@ -54,6 +70,11 @@ namespace UserLib
                 return _password; 
             } 
         }
+
+
+        /// <summary>
+        /// Returneaza tipul de acces al utilizatorului.
+        /// </summary>
         public int AccesType
         {
             get
@@ -61,15 +82,31 @@ namespace UserLib
                 return _accesType;
             }
         }
+
+
+        /// <summary>
+        /// Verifica daca utilizatorul este admin.
+        /// </summary>
+        /// <returns>True daca este admin, altfel false</returns>
         public bool isAdmin()
         {
             return _accesType == -1?  true:  false;
         }
 
+        /// <summary>
+        /// Metoda apelata de subiect pentru a trimite o notificare catre acest utilizator.
+        /// </summary>
+        /// <param name="notificare">Mesajul de notificare</param>
         public void Update(string notificare)
         {
             Notificari.Add(notificare);
         }
+
+        /// <summary>
+        /// Returneaza o reprezentare textuala a obiectului User.
+        /// </summary>
+        /// <returns>Username-ul si tipul de acces sub forma string</returns>
+
         public override string ToString() 
         {
             return _username + " " + _accesType;

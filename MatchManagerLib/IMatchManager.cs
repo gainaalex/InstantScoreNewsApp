@@ -15,6 +15,10 @@ using MatchStats;
 
 namespace MatchManager
 {
+    /// <summary>
+    /// Interfață care definește funcționalitățile esențiale pentru gestionarea meciurilor și evenimentelor acestora,
+    /// utilizată de clasele ProxyMatchManager și RealMatchManager.
+    /// </summary>
     public interface IMatchManager
     {
         Stack<Match> GetMatches();

@@ -22,6 +22,10 @@ using MatchStats;
 
 namespace MatchManager
 {
+    /// <summary>
+    /// Clasa care actioneaza ca un proxy intre interfata utilizatorului si gestionarea reala a meciurilor.
+    /// Se ocupa de autentificare, controlul accesului si notificarea utilizatorilor non-admin.
+    /// </summary>
     public class ProxyMatchManager:IMatchManager,Subject
     {
         private const string Path = "Data\\";
@@ -31,6 +35,9 @@ namespace MatchManager
         //lista userilor ce ascullta modificarile facute de admin
         private List<Subscriber> _subscribers;
 
+        /// <summary>
+        /// Returneaza sau seteaza utilizatorul curent autentificat in aplicatie.
+        /// </summary>
         public User CurrentUser 
         { 
             get 
@@ -42,6 +49,9 @@ namespace MatchManager
                 _currentUser = value;
             }
         }
+        /// <summary>
+        /// Constructorul clasei. Incarca utilizatorii din fisierul text si ii aboneaza pe cei non-admin.
+        /// </summary>
         public ProxyMatchManager()
         {
             //introducere utilizatorul admin
@@ -68,6 +78,9 @@ namespace MatchManager
             SubscribeAllUsers();
         }
 
+        /// <summary>
+        /// Aboneaza toti utilizatorii non-admin la notificari.
+        /// </summary>
         private void SubscribeAllUsers()
         {
             foreach (User user in _users)
@@ -77,6 +90,12 @@ namespace MatchManager
             }
         }
 
+        /// <summary>
+        /// Verifica daca datele introduse de utilizator corespund unui cont existent.
+        /// </summary>
+        /// <param name="username">Numele de utilizator introdus.</param>
+        /// <param name="password">Parola introdusa (necriptata).</param>
+        /// <returns>Adevarat daca autentificarea este reusita, altfel fals.</returns>
         public bool Login(String username, String password)
         {
             // determinare hash parola introdusa de user
@@ -92,6 +111,10 @@ namespace MatchManager
             return false;
         }
 
+        /// <summary>
+        /// Verifica daca utilizatorul curent are drepturi de administrator.
+        /// </summary>
+        /// <returns>Adevarat daca este admin, altfel fals.</returns>
         public bool UserIsAdmin()
         {
             if(_currentUser!=null && _currentUser.AccesType==-1)
@@ -99,15 +122,27 @@ namespace MatchManager
             return false;
         }
 
+        /// <summary>
+        /// Returneaza lista meciurilor din managerul real.
+        /// </summary>
         public Stack<Match> GetMatches()
         {
             return _realMatchManager.GetMatches();
         }
+
+        /// <summary>
+        /// Returneaza evenimentele asociate unui meci.
+        /// </summary>
+        /// <param name="match">Meciul pentru care se cer evenimentele.</param>
         public Stack<Event> GetEvents(Match match)
         {
             return _realMatchManager.GetEvents(match);
         }
 
+        /// <summary>
+        /// Adauga un meci daca utilizatorul este admin si trimite notificare.
+        /// </summary>
+        /// <param name="match">Meciul de adaugat.</param>
         public void AddMatch(Match match)
         {
             if(UserIsAdmin())
@@ -116,6 +151,11 @@ namespace MatchManager
                 Notify(match.ToString());
             }
         }
+
+        /// <summary>
+        /// Sterge un meci daca utilizatorul este admin si trimite notificare.
+        /// </summary>
+        /// <param name="match">Meciul de sters.</param>
         public void RemoveMatch(Match match)
         {
             if (UserIsAdmin())
@@ -124,6 +164,12 @@ namespace MatchManager
                 Notify(match.ToString());
             }
         }
+
+        /// <summary>
+        /// Actualizeaza un meci daca utilizatorul este admin si trimite notificare.
+        /// </summary>
+        /// <param name="match">Meciul original.</param>
+        /// <param name="newMatch">Noul meci cu datele actualizate.</param>
         public void UpdateMatch(Match match, Match newMatch)
         {
             if (UserIsAdmin())
@@ -134,6 +180,9 @@ namespace MatchManager
             }
         }
 
+        /// <summary>
+        /// Adauga un eveniment la un meci daca utilizatorul este admin si trimite notificare.
+        /// </summary>
         public void AddEvent(Match match, Event e)
         {
             if (UserIsAdmin())
@@ -142,6 +191,10 @@ namespace MatchManager
                 Notify("In meciul: "+match.ToString()+" -> "+e.ToString());
             }
         }
+
+        /// <summary>
+        /// Sterge un eveniment dintr-un meci daca utilizatorul este admin si trimite notificare.
+        /// </summary>
         public void DeleteEvent(Match match, Event e)
         {
             if (UserIsAdmin())
@@ -151,6 +204,9 @@ namespace MatchManager
             }
         }
 
+        /// <summary>
+        /// Actualizeaza un eveniment intr-un meci daca utilizatorul este admin si trimite notificare.
+        /// </summary>
         public void UpdateEvent(Match match, Event e, Event newEvent)
         {
             if (UserIsAdmin())
@@ -173,6 +229,9 @@ namespace MatchManager
             sw.Close();
         }
 
+        /// <summary>
+        /// Adauga un nou utilizator normal (non-admin), il salveaza in fisier si il aboneaza.
+        /// </summary>
         public void AddUser(string username, string password)
         {
             //utilizatorul e salvat cu parola hash
@@ -183,17 +242,26 @@ namespace MatchManager
             SaveUsers();
         }
 
+        /// <summary>
+        /// Ataseaza un nou abonat pentru notificari (daca nu este deja abonat).
+        /// </summary>
         public void Attach(Subscriber subscriber)
         {
             if(!_subscribers.Contains(subscriber))
                 _subscribers.Add(subscriber);
         }
 
+        /// <summary>
+        /// Elimina un abonat din lista de notificare.
+        /// </summary>
         public void Detach(Subscriber subscriber)
         {
             _subscribers.Remove(subscriber);
         }
 
+        /// <summary>
+        /// Trimite o notificare tuturor abonatilor existenti.
+        /// </summary>
         public void Notify(string notificare)
         {
             foreach(Subscriber subscriber in _subscribers)

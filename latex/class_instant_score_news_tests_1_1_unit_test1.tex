@@ -1,0 +1,267 @@
+\doxysection{Instant\+Score\+News\+Tests.\+Unit\+Test1 Class Reference}
+\hypertarget{class_instant_score_news_tests_1_1_unit_test1}{}\label{class_instant_score_news_tests_1_1_unit_test1}\index{InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_instant_score_news_tests_1_1_unit_test1_ae6fd69f1695ca574bb3c83aa6cf9d415}{Test\+\_\+\+Login\+\_\+1}} ()
+\begin{DoxyCompactList}\small\item\em Testeaza autentificarea reusita a utilizatorului admin cu parola corecta. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_instant_score_news_tests_1_1_unit_test1_acaeff28dc63ceb31c6da34d6e5aabd19}{Test\+\_\+\+Login\+\_\+2}} ()
+\begin{DoxyCompactList}\small\item\em Testeaza autentificarea reusita a utilizatorului admin cu parola gresita. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_instant_score_news_tests_1_1_unit_test1_a297c73cec30ccd2567af13af60ca9454}{Test\+\_\+\+Login\+\_\+3}} ()
+\begin{DoxyCompactList}\small\item\em Testeaza autentificarea reusita a utilizatorului alex cu parola corecta. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_instant_score_news_tests_1_1_unit_test1_a20d5df23c848f894d76449a23b2a2edc}{Test\+\_\+\+Login\+\_\+4}} ()
+\begin{DoxyCompactList}\small\item\em Testeaza esecul reusita a utilizatorului alex cu parola gresita. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_instant_score_news_tests_1_1_unit_test1_ad67befd4fcd2c2a39ad725ec1839ef7d}{Test\+\_\+\+Login\+\_\+5}} ()
+\begin{DoxyCompactList}\small\item\em Testeaza esecul autentificarii utilizatorului ruben cu parola gresita(case sensitive). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_instant_score_news_tests_1_1_unit_test1_a443e3bde061f7a5aec61c2e7e2893349}{User\+\_\+constructor\+\_\+1}} ()
+\begin{DoxyCompactList}\small\item\em Testeaza constructorul \doxylink{class_user_lib_1_1_user}{User} cu username invalid "{}."{} si verifica aruncarea exceptiei Argument\+Exception. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_instant_score_news_tests_1_1_unit_test1_a2d2c0b84505ab9a88b070ab91f3ca88d}{User\+\_\+constructor\+\_\+2}} ()
+\begin{DoxyCompactList}\small\item\em Testeaza constructorul \doxylink{class_user_lib_1_1_user}{User} cu un username valid si nu arunca exceptie. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_instant_score_news_tests_1_1_unit_test1_acba50b2297d4455a9fe67ff0f6ff0ef2}{User\+\_\+constructor\+\_\+3}} ()
+\begin{DoxyCompactList}\small\item\em Testeaza constructorul \doxylink{class_user_lib_1_1_user}{User} cu username ce contine caracter invalid \textquotesingle{}.\textquotesingle{} si verifica aruncarea exceptiei. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_instant_score_news_tests_1_1_unit_test1_aa585a29ea6137f8084223c1fa201ca9a}{User\+\_\+constructor\+\_\+4}} ()
+\begin{DoxyCompactList}\small\item\em Testeaza constructorul \doxylink{class_user_lib_1_1_user}{User} cu username mai scurt de 3 caractere si verifica aruncarea exceptiei. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_instant_score_news_tests_1_1_unit_test1_af14fb8cf4e877d300631ba6ac8da92f7}{User\+\_\+constructor\+\_\+5}} ()
+\begin{DoxyCompactList}\small\item\em Testeaza constructorul \doxylink{class_user_lib_1_1_user}{User} cu username mai lung de 16 caractere si verifica aruncarea exceptiei. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_instant_score_news_tests_1_1_unit_test1_a48b7a14c6608a640546d9ca5800a84c3}{User\+\_\+constructor\+\_\+6}} ()
+\begin{DoxyCompactList}\small\item\em Testeaza constructorul \doxylink{class_user_lib_1_1_user}{User} cu username ce contine caracter invalid \textquotesingle{}.\textquotesingle{} si verifica aruncarea exceptiei. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_instant_score_news_tests_1_1_unit_test1_a2b2ecacb82b35b906c734ef81e83900d}{Password\+Hasher\+\_\+\+Hash\+String\+\_\+1}} ()
+\begin{DoxyCompactList}\small\item\em Testeaza ca acelasi input in hasher returneaza acelasi hash. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_instant_score_news_tests_1_1_unit_test1_ab7b4c35185efa453e5ed1c20d4cbfe3d}{Password\+Hasher\+\_\+\+Hash\+String\+\_\+2}} ()
+\begin{DoxyCompactList}\small\item\em Testeaza ca doua inputuri diferite genereaza hashuri diferite. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_instant_score_news_tests_1_1_unit_test1_a4403c148b43045bf35d2ee997c431f59}{Password\+Hasher\+\_\+\+Hash\+String\+\_\+3}} ()
+\begin{DoxyCompactList}\small\item\em Testeaza ca un input gol returneaza un hash valid (nevid). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_instant_score_news_tests_1_1_unit_test1_ae0cae5d74ae94ad0bb8412c3506540d7}{Password\+Hasher\+\_\+\+Hash\+String\+\_\+4}} ()
+\begin{DoxyCompactList}\small\item\em Testeaza hashing-\/ul unui input ce contine caractere unicode. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_instant_score_news_tests_1_1_unit_test1_a7ac340c781c74b1efd645eb5f2707aff}{Password\+Hasher\+\_\+\+Hash\+String\+\_\+5}} ()
+\begin{DoxyCompactList}\small\item\em Testeaza ca hashul generat are lungimea de 28 caractere (Base64). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_instant_score_news_tests_1_1_unit_test1_aeba4cc571a364d5d0a76ed8f9b344ca0}{Add\+Match}} ()
+\begin{DoxyCompactList}\small\item\em Testeaza ca adaugarea unui meci il include in lista de meciuri. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_instant_score_news_tests_1_1_unit_test1_a140a7bf8dc98fc35435e3643dd45bd59}{Real\+Match\+Manager\+\_\+\+Remove\+Match}} ()
+\begin{DoxyCompactList}\small\item\em Testeaza ca stergerea unui meci il elimina din lista de meciuri. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_instant_score_news_tests_1_1_unit_test1_a1dd28ec1cb29bfe6a066d773dc88cd24}{Real\+Match\+Manager\+\_\+\+Update\+Match}} ()
+\begin{DoxyCompactList}\small\item\em Testeaza ca actualizarea unui meci modifica scorurile acestuia. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_instant_score_news_tests_1_1_unit_test1_af6ac46197e209fbb5c0bf45171bfc44b}{Real\+Match\+Manager\+\_\+\+Add\+Event}} ()
+\begin{DoxyCompactList}\small\item\em Testeaza ca adaugarea unui eveniment il include in lista evenimentelor meciului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_instant_score_news_tests_1_1_unit_test1_a624f1c19c2a642c0c7354dd73ea58e7f}{Real\+Match\+Manager\+\_\+\+Delete\+Event}} ()
+\begin{DoxyCompactList}\small\item\em Testeaza ca stergerea unui eveniment il elimina din lista evenimentelor meciului. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\label{doc-func-members}
+\Hypertarget{class_instant_score_news_tests_1_1_unit_test1_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_instant_score_news_tests_1_1_unit_test1_aeba4cc571a364d5d0a76ed8f9b344ca0}\index{InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}!AddMatch@{AddMatch}}
+\index{AddMatch@{AddMatch}!InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}}
+\doxysubsubsection{\texorpdfstring{AddMatch()}{AddMatch()}}
+{\footnotesize\ttfamily \label{class_instant_score_news_tests_1_1_unit_test1_aeba4cc571a364d5d0a76ed8f9b344ca0} 
+void Instant\+Score\+News\+Tests.\+Unit\+Test1.\+Add\+Match (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testeaza ca adaugarea unui meci il include in lista de meciuri. 
+
+\Hypertarget{class_instant_score_news_tests_1_1_unit_test1_a2b2ecacb82b35b906c734ef81e83900d}\index{InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}!PasswordHasher\_HashString\_1@{PasswordHasher\_HashString\_1}}
+\index{PasswordHasher\_HashString\_1@{PasswordHasher\_HashString\_1}!InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}}
+\doxysubsubsection{\texorpdfstring{PasswordHasher\_HashString\_1()}{PasswordHasher\_HashString\_1()}}
+{\footnotesize\ttfamily \label{class_instant_score_news_tests_1_1_unit_test1_a2b2ecacb82b35b906c734ef81e83900d} 
+void Instant\+Score\+News\+Tests.\+Unit\+Test1.\+Password\+Hasher\+\_\+\+Hash\+String\+\_\+1 (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testeaza ca acelasi input in hasher returneaza acelasi hash. 
+
+\Hypertarget{class_instant_score_news_tests_1_1_unit_test1_ab7b4c35185efa453e5ed1c20d4cbfe3d}\index{InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}!PasswordHasher\_HashString\_2@{PasswordHasher\_HashString\_2}}
+\index{PasswordHasher\_HashString\_2@{PasswordHasher\_HashString\_2}!InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}}
+\doxysubsubsection{\texorpdfstring{PasswordHasher\_HashString\_2()}{PasswordHasher\_HashString\_2()}}
+{\footnotesize\ttfamily \label{class_instant_score_news_tests_1_1_unit_test1_ab7b4c35185efa453e5ed1c20d4cbfe3d} 
+void Instant\+Score\+News\+Tests.\+Unit\+Test1.\+Password\+Hasher\+\_\+\+Hash\+String\+\_\+2 (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testeaza ca doua inputuri diferite genereaza hashuri diferite. 
+
+\Hypertarget{class_instant_score_news_tests_1_1_unit_test1_a4403c148b43045bf35d2ee997c431f59}\index{InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}!PasswordHasher\_HashString\_3@{PasswordHasher\_HashString\_3}}
+\index{PasswordHasher\_HashString\_3@{PasswordHasher\_HashString\_3}!InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}}
+\doxysubsubsection{\texorpdfstring{PasswordHasher\_HashString\_3()}{PasswordHasher\_HashString\_3()}}
+{\footnotesize\ttfamily \label{class_instant_score_news_tests_1_1_unit_test1_a4403c148b43045bf35d2ee997c431f59} 
+void Instant\+Score\+News\+Tests.\+Unit\+Test1.\+Password\+Hasher\+\_\+\+Hash\+String\+\_\+3 (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testeaza ca un input gol returneaza un hash valid (nevid). 
+
+\Hypertarget{class_instant_score_news_tests_1_1_unit_test1_ae0cae5d74ae94ad0bb8412c3506540d7}\index{InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}!PasswordHasher\_HashString\_4@{PasswordHasher\_HashString\_4}}
+\index{PasswordHasher\_HashString\_4@{PasswordHasher\_HashString\_4}!InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}}
+\doxysubsubsection{\texorpdfstring{PasswordHasher\_HashString\_4()}{PasswordHasher\_HashString\_4()}}
+{\footnotesize\ttfamily \label{class_instant_score_news_tests_1_1_unit_test1_ae0cae5d74ae94ad0bb8412c3506540d7} 
+void Instant\+Score\+News\+Tests.\+Unit\+Test1.\+Password\+Hasher\+\_\+\+Hash\+String\+\_\+4 (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testeaza hashing-\/ul unui input ce contine caractere unicode. 
+
+\Hypertarget{class_instant_score_news_tests_1_1_unit_test1_a7ac340c781c74b1efd645eb5f2707aff}\index{InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}!PasswordHasher\_HashString\_5@{PasswordHasher\_HashString\_5}}
+\index{PasswordHasher\_HashString\_5@{PasswordHasher\_HashString\_5}!InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}}
+\doxysubsubsection{\texorpdfstring{PasswordHasher\_HashString\_5()}{PasswordHasher\_HashString\_5()}}
+{\footnotesize\ttfamily \label{class_instant_score_news_tests_1_1_unit_test1_a7ac340c781c74b1efd645eb5f2707aff} 
+void Instant\+Score\+News\+Tests.\+Unit\+Test1.\+Password\+Hasher\+\_\+\+Hash\+String\+\_\+5 (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testeaza ca hashul generat are lungimea de 28 caractere (Base64). 
+
+\Hypertarget{class_instant_score_news_tests_1_1_unit_test1_af6ac46197e209fbb5c0bf45171bfc44b}\index{InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}!RealMatchManager\_AddEvent@{RealMatchManager\_AddEvent}}
+\index{RealMatchManager\_AddEvent@{RealMatchManager\_AddEvent}!InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}}
+\doxysubsubsection{\texorpdfstring{RealMatchManager\_AddEvent()}{RealMatchManager\_AddEvent()}}
+{\footnotesize\ttfamily \label{class_instant_score_news_tests_1_1_unit_test1_af6ac46197e209fbb5c0bf45171bfc44b} 
+void Instant\+Score\+News\+Tests.\+Unit\+Test1.\+Real\+Match\+Manager\+\_\+\+Add\+Event (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testeaza ca adaugarea unui eveniment il include in lista evenimentelor meciului. 
+
+\Hypertarget{class_instant_score_news_tests_1_1_unit_test1_a624f1c19c2a642c0c7354dd73ea58e7f}\index{InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}!RealMatchManager\_DeleteEvent@{RealMatchManager\_DeleteEvent}}
+\index{RealMatchManager\_DeleteEvent@{RealMatchManager\_DeleteEvent}!InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}}
+\doxysubsubsection{\texorpdfstring{RealMatchManager\_DeleteEvent()}{RealMatchManager\_DeleteEvent()}}
+{\footnotesize\ttfamily \label{class_instant_score_news_tests_1_1_unit_test1_a624f1c19c2a642c0c7354dd73ea58e7f} 
+void Instant\+Score\+News\+Tests.\+Unit\+Test1.\+Real\+Match\+Manager\+\_\+\+Delete\+Event (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testeaza ca stergerea unui eveniment il elimina din lista evenimentelor meciului. 
+
+\Hypertarget{class_instant_score_news_tests_1_1_unit_test1_a140a7bf8dc98fc35435e3643dd45bd59}\index{InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}!RealMatchManager\_RemoveMatch@{RealMatchManager\_RemoveMatch}}
+\index{RealMatchManager\_RemoveMatch@{RealMatchManager\_RemoveMatch}!InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}}
+\doxysubsubsection{\texorpdfstring{RealMatchManager\_RemoveMatch()}{RealMatchManager\_RemoveMatch()}}
+{\footnotesize\ttfamily \label{class_instant_score_news_tests_1_1_unit_test1_a140a7bf8dc98fc35435e3643dd45bd59} 
+void Instant\+Score\+News\+Tests.\+Unit\+Test1.\+Real\+Match\+Manager\+\_\+\+Remove\+Match (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testeaza ca stergerea unui meci il elimina din lista de meciuri. 
+
+\Hypertarget{class_instant_score_news_tests_1_1_unit_test1_a1dd28ec1cb29bfe6a066d773dc88cd24}\index{InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}!RealMatchManager\_UpdateMatch@{RealMatchManager\_UpdateMatch}}
+\index{RealMatchManager\_UpdateMatch@{RealMatchManager\_UpdateMatch}!InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}}
+\doxysubsubsection{\texorpdfstring{RealMatchManager\_UpdateMatch()}{RealMatchManager\_UpdateMatch()}}
+{\footnotesize\ttfamily \label{class_instant_score_news_tests_1_1_unit_test1_a1dd28ec1cb29bfe6a066d773dc88cd24} 
+void Instant\+Score\+News\+Tests.\+Unit\+Test1.\+Real\+Match\+Manager\+\_\+\+Update\+Match (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testeaza ca actualizarea unui meci modifica scorurile acestuia. 
+
+\Hypertarget{class_instant_score_news_tests_1_1_unit_test1_ae6fd69f1695ca574bb3c83aa6cf9d415}\index{InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}!Test\_Login\_1@{Test\_Login\_1}}
+\index{Test\_Login\_1@{Test\_Login\_1}!InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}}
+\doxysubsubsection{\texorpdfstring{Test\_Login\_1()}{Test\_Login\_1()}}
+{\footnotesize\ttfamily \label{class_instant_score_news_tests_1_1_unit_test1_ae6fd69f1695ca574bb3c83aa6cf9d415} 
+void Instant\+Score\+News\+Tests.\+Unit\+Test1.\+Test\+\_\+\+Login\+\_\+1 (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testeaza autentificarea reusita a utilizatorului admin cu parola corecta. 
+
+\Hypertarget{class_instant_score_news_tests_1_1_unit_test1_acaeff28dc63ceb31c6da34d6e5aabd19}\index{InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}!Test\_Login\_2@{Test\_Login\_2}}
+\index{Test\_Login\_2@{Test\_Login\_2}!InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}}
+\doxysubsubsection{\texorpdfstring{Test\_Login\_2()}{Test\_Login\_2()}}
+{\footnotesize\ttfamily \label{class_instant_score_news_tests_1_1_unit_test1_acaeff28dc63ceb31c6da34d6e5aabd19} 
+void Instant\+Score\+News\+Tests.\+Unit\+Test1.\+Test\+\_\+\+Login\+\_\+2 (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testeaza autentificarea reusita a utilizatorului admin cu parola gresita. 
+
+\Hypertarget{class_instant_score_news_tests_1_1_unit_test1_a297c73cec30ccd2567af13af60ca9454}\index{InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}!Test\_Login\_3@{Test\_Login\_3}}
+\index{Test\_Login\_3@{Test\_Login\_3}!InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}}
+\doxysubsubsection{\texorpdfstring{Test\_Login\_3()}{Test\_Login\_3()}}
+{\footnotesize\ttfamily \label{class_instant_score_news_tests_1_1_unit_test1_a297c73cec30ccd2567af13af60ca9454} 
+void Instant\+Score\+News\+Tests.\+Unit\+Test1.\+Test\+\_\+\+Login\+\_\+3 (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testeaza autentificarea reusita a utilizatorului alex cu parola corecta. 
+
+\Hypertarget{class_instant_score_news_tests_1_1_unit_test1_a20d5df23c848f894d76449a23b2a2edc}\index{InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}!Test\_Login\_4@{Test\_Login\_4}}
+\index{Test\_Login\_4@{Test\_Login\_4}!InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}}
+\doxysubsubsection{\texorpdfstring{Test\_Login\_4()}{Test\_Login\_4()}}
+{\footnotesize\ttfamily \label{class_instant_score_news_tests_1_1_unit_test1_a20d5df23c848f894d76449a23b2a2edc} 
+void Instant\+Score\+News\+Tests.\+Unit\+Test1.\+Test\+\_\+\+Login\+\_\+4 (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testeaza esecul reusita a utilizatorului alex cu parola gresita. 
+
+\Hypertarget{class_instant_score_news_tests_1_1_unit_test1_ad67befd4fcd2c2a39ad725ec1839ef7d}\index{InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}!Test\_Login\_5@{Test\_Login\_5}}
+\index{Test\_Login\_5@{Test\_Login\_5}!InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}}
+\doxysubsubsection{\texorpdfstring{Test\_Login\_5()}{Test\_Login\_5()}}
+{\footnotesize\ttfamily \label{class_instant_score_news_tests_1_1_unit_test1_ad67befd4fcd2c2a39ad725ec1839ef7d} 
+void Instant\+Score\+News\+Tests.\+Unit\+Test1.\+Test\+\_\+\+Login\+\_\+5 (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testeaza esecul autentificarii utilizatorului ruben cu parola gresita(case sensitive). 
+
+\Hypertarget{class_instant_score_news_tests_1_1_unit_test1_a443e3bde061f7a5aec61c2e7e2893349}\index{InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}!User\_constructor\_1@{User\_constructor\_1}}
+\index{User\_constructor\_1@{User\_constructor\_1}!InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}}
+\doxysubsubsection{\texorpdfstring{User\_constructor\_1()}{User\_constructor\_1()}}
+{\footnotesize\ttfamily \label{class_instant_score_news_tests_1_1_unit_test1_a443e3bde061f7a5aec61c2e7e2893349} 
+void Instant\+Score\+News\+Tests.\+Unit\+Test1.\+User\+\_\+constructor\+\_\+1 (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testeaza constructorul \doxylink{class_user_lib_1_1_user}{User} cu username invalid "{}."{} si verifica aruncarea exceptiei Argument\+Exception. 
+
+\Hypertarget{class_instant_score_news_tests_1_1_unit_test1_a2d2c0b84505ab9a88b070ab91f3ca88d}\index{InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}!User\_constructor\_2@{User\_constructor\_2}}
+\index{User\_constructor\_2@{User\_constructor\_2}!InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}}
+\doxysubsubsection{\texorpdfstring{User\_constructor\_2()}{User\_constructor\_2()}}
+{\footnotesize\ttfamily \label{class_instant_score_news_tests_1_1_unit_test1_a2d2c0b84505ab9a88b070ab91f3ca88d} 
+void Instant\+Score\+News\+Tests.\+Unit\+Test1.\+User\+\_\+constructor\+\_\+2 (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testeaza constructorul \doxylink{class_user_lib_1_1_user}{User} cu un username valid si nu arunca exceptie. 
+
+\Hypertarget{class_instant_score_news_tests_1_1_unit_test1_acba50b2297d4455a9fe67ff0f6ff0ef2}\index{InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}!User\_constructor\_3@{User\_constructor\_3}}
+\index{User\_constructor\_3@{User\_constructor\_3}!InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}}
+\doxysubsubsection{\texorpdfstring{User\_constructor\_3()}{User\_constructor\_3()}}
+{\footnotesize\ttfamily \label{class_instant_score_news_tests_1_1_unit_test1_acba50b2297d4455a9fe67ff0f6ff0ef2} 
+void Instant\+Score\+News\+Tests.\+Unit\+Test1.\+User\+\_\+constructor\+\_\+3 (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testeaza constructorul \doxylink{class_user_lib_1_1_user}{User} cu username ce contine caracter invalid \textquotesingle{}.\textquotesingle{} si verifica aruncarea exceptiei. 
+
+\Hypertarget{class_instant_score_news_tests_1_1_unit_test1_aa585a29ea6137f8084223c1fa201ca9a}\index{InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}!User\_constructor\_4@{User\_constructor\_4}}
+\index{User\_constructor\_4@{User\_constructor\_4}!InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}}
+\doxysubsubsection{\texorpdfstring{User\_constructor\_4()}{User\_constructor\_4()}}
+{\footnotesize\ttfamily \label{class_instant_score_news_tests_1_1_unit_test1_aa585a29ea6137f8084223c1fa201ca9a} 
+void Instant\+Score\+News\+Tests.\+Unit\+Test1.\+User\+\_\+constructor\+\_\+4 (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testeaza constructorul \doxylink{class_user_lib_1_1_user}{User} cu username mai scurt de 3 caractere si verifica aruncarea exceptiei. 
+
+\Hypertarget{class_instant_score_news_tests_1_1_unit_test1_af14fb8cf4e877d300631ba6ac8da92f7}\index{InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}!User\_constructor\_5@{User\_constructor\_5}}
+\index{User\_constructor\_5@{User\_constructor\_5}!InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}}
+\doxysubsubsection{\texorpdfstring{User\_constructor\_5()}{User\_constructor\_5()}}
+{\footnotesize\ttfamily \label{class_instant_score_news_tests_1_1_unit_test1_af14fb8cf4e877d300631ba6ac8da92f7} 
+void Instant\+Score\+News\+Tests.\+Unit\+Test1.\+User\+\_\+constructor\+\_\+5 (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testeaza constructorul \doxylink{class_user_lib_1_1_user}{User} cu username mai lung de 16 caractere si verifica aruncarea exceptiei. 
+
+\Hypertarget{class_instant_score_news_tests_1_1_unit_test1_a48b7a14c6608a640546d9ca5800a84c3}\index{InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}!User\_constructor\_6@{User\_constructor\_6}}
+\index{User\_constructor\_6@{User\_constructor\_6}!InstantScoreNewsTests.UnitTest1@{InstantScoreNewsTests.UnitTest1}}
+\doxysubsubsection{\texorpdfstring{User\_constructor\_6()}{User\_constructor\_6()}}
+{\footnotesize\ttfamily \label{class_instant_score_news_tests_1_1_unit_test1_a48b7a14c6608a640546d9ca5800a84c3} 
+void Instant\+Score\+News\+Tests.\+Unit\+Test1.\+User\+\_\+constructor\+\_\+6 (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testeaza constructorul \doxylink{class_user_lib_1_1_user}{User} cu username ce contine caracter invalid \textquotesingle{}.\textquotesingle{} si verifica aruncarea exceptiei. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/ruben/\+One\+Drive/\+Desktop/facultate/\+AN\+\_\+3/ingineria\+\_\+programarii/\+Instant\+Score\+News\+App/\+Instant\+Score\+News\+Tests/\mbox{\hyperlink{_unit_test1_8cs}{Unit\+Test1.\+cs}}\end{DoxyCompactItemize}

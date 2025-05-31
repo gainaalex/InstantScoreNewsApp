@@ -1,0 +1,219 @@
+\doxysection{Match\+Manager.\+Real\+Match\+Manager Class Reference}
+\hypertarget{class_match_manager_1_1_real_match_manager}{}\label{class_match_manager_1_1_real_match_manager}\index{MatchManager.RealMatchManager@{MatchManager.RealMatchManager}}
+
+
+Clasa care gestioneaza direct datele despre meciuri si evenimentele din acestea. Implementeaza functionalitatile definite in \doxylink{interface_match_manager_1_1_i_match_manager}{IMatch\+Manager}.  
+
+
+Inheritance diagram for Match\+Manager.\+Real\+Match\+Manager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_match_manager_1_1_real_match_manager}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_match_manager_1_1_real_match_manager_a986310ef87909f53f48d0c52f1705f44}{Real\+Match\+Manager}} ()
+\begin{DoxyCompactList}\small\item\em Constructorul implicit al clasei. \end{DoxyCompactList}\item 
+Stack$<$ \mbox{\hyperlink{class_match_stats_1_1_match}{Match}} $>$ \mbox{\hyperlink{class_match_manager_1_1_real_match_manager_af48ce7ce74f286c782322aeab7a69672}{Get\+Matches}} ()
+\begin{DoxyCompactList}\small\item\em Returneaza toate meciurile sub forma unui stack (ultimele update-\/uri apar primele). \end{DoxyCompactList}\item 
+Stack$<$ \mbox{\hyperlink{class_match_stats_1_1_event}{Event}} $>$ \mbox{\hyperlink{class_match_manager_1_1_real_match_manager_ac0298df17b814ee49e50288dd82903cd}{Get\+Events}} (\mbox{\hyperlink{class_match_stats_1_1_match}{Match}} m)
+\begin{DoxyCompactList}\small\item\em Returneaza toate evenimentele asociate unui meci sub forma de stack. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_match_manager_1_1_real_match_manager_a4901d867293b56d356a883e12eb86c67}{Add\+Match}} (\mbox{\hyperlink{class_match_stats_1_1_match}{Match}} match)
+\begin{DoxyCompactList}\small\item\em Adauga un meci in lista. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_match_manager_1_1_real_match_manager_a806015806e952a4a0cd7c184733c44a3}{Remove\+Match}} (\mbox{\hyperlink{class_match_stats_1_1_match}{Match}} match)
+\begin{DoxyCompactList}\small\item\em Elimina un meci din lista. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_match_manager_1_1_real_match_manager_a3cdfe0ad9cff3d1f52cbc60b2216ddad}{Update\+Match}} (\mbox{\hyperlink{class_match_stats_1_1_match}{Match}} match, \mbox{\hyperlink{class_match_stats_1_1_match}{Match}} new\+Match)
+\begin{DoxyCompactList}\small\item\em Actualizeaza informatiile unui meci existent. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_match_manager_1_1_real_match_manager_ac737ca61e6e7d2cedf180e6229c09160}{Add\+Event}} (\mbox{\hyperlink{class_match_stats_1_1_match}{Match}} match, \mbox{\hyperlink{class_match_stats_1_1_event}{Event}} e)
+\begin{DoxyCompactList}\small\item\em Adauga un eveniment la un meci. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_match_manager_1_1_real_match_manager_a62751af0cbec657d335c6f5c91f7707e}{Delete\+Event}} (\mbox{\hyperlink{class_match_stats_1_1_match}{Match}} match, \mbox{\hyperlink{class_match_stats_1_1_event}{Event}} e)
+\begin{DoxyCompactList}\small\item\em Sterge un eveniment dintr-\/un meci. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_match_manager_1_1_real_match_manager_af7e829092a7ec8b034ac091fff34c670}{Update\+Event}} (\mbox{\hyperlink{class_match_stats_1_1_match}{Match}} match, \mbox{\hyperlink{class_match_stats_1_1_event}{Event}} e, \mbox{\hyperlink{class_match_stats_1_1_event}{Event}} new\+Event)
+\begin{DoxyCompactList}\small\item\em Actualizeaza un eveniment existent cu unul nou. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clasa care gestioneaza direct datele despre meciuri si evenimentele din acestea. Implementeaza functionalitatile definite in \doxylink{interface_match_manager_1_1_i_match_manager}{IMatch\+Manager}. 
+
+\label{doc-constructors}
+\Hypertarget{class_match_manager_1_1_real_match_manager_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_match_manager_1_1_real_match_manager_a986310ef87909f53f48d0c52f1705f44}\index{MatchManager.RealMatchManager@{MatchManager.RealMatchManager}!RealMatchManager@{RealMatchManager}}
+\index{RealMatchManager@{RealMatchManager}!MatchManager.RealMatchManager@{MatchManager.RealMatchManager}}
+\doxysubsubsection{\texorpdfstring{RealMatchManager()}{RealMatchManager()}}
+{\footnotesize\ttfamily \label{class_match_manager_1_1_real_match_manager_a986310ef87909f53f48d0c52f1705f44} 
+Match\+Manager.\+Real\+Match\+Manager.\+Real\+Match\+Manager (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Constructorul implicit al clasei. 
+
+
+
+\label{doc-func-members}
+\Hypertarget{class_match_manager_1_1_real_match_manager_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_match_manager_1_1_real_match_manager_ac737ca61e6e7d2cedf180e6229c09160}\index{MatchManager.RealMatchManager@{MatchManager.RealMatchManager}!AddEvent@{AddEvent}}
+\index{AddEvent@{AddEvent}!MatchManager.RealMatchManager@{MatchManager.RealMatchManager}}
+\doxysubsubsection{\texorpdfstring{AddEvent()}{AddEvent()}}
+{\footnotesize\ttfamily \label{class_match_manager_1_1_real_match_manager_ac737ca61e6e7d2cedf180e6229c09160} 
+void Match\+Manager.\+Real\+Match\+Manager.\+Add\+Event (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_match_stats_1_1_match}{Match}}}]{match}{, }\item[{\mbox{\hyperlink{class_match_stats_1_1_event}{Event}}}]{e}{}\end{DoxyParamCaption})}
+
+
+
+Adauga un eveniment la un meci. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em match} & Meciul la care se adauga evenimentul.\\
+\hline
+{\em e} & Evenimentul de adaugat.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_match_manager_1_1_i_match_manager_ad54a6d783471ee09c59bc8dda65bc22c}{Match\+Manager.\+IMatch\+Manager}}.
+
+\Hypertarget{class_match_manager_1_1_real_match_manager_a4901d867293b56d356a883e12eb86c67}\index{MatchManager.RealMatchManager@{MatchManager.RealMatchManager}!AddMatch@{AddMatch}}
+\index{AddMatch@{AddMatch}!MatchManager.RealMatchManager@{MatchManager.RealMatchManager}}
+\doxysubsubsection{\texorpdfstring{AddMatch()}{AddMatch()}}
+{\footnotesize\ttfamily \label{class_match_manager_1_1_real_match_manager_a4901d867293b56d356a883e12eb86c67} 
+void Match\+Manager.\+Real\+Match\+Manager.\+Add\+Match (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_match_stats_1_1_match}{Match}}}]{match}{}\end{DoxyParamCaption})}
+
+
+
+Adauga un meci in lista. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em match} & Meciul de adaugat.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_match_manager_1_1_i_match_manager_a5b829e3d8735b6eb9b263e486ffb426e}{Match\+Manager.\+IMatch\+Manager}}.
+
+\Hypertarget{class_match_manager_1_1_real_match_manager_a62751af0cbec657d335c6f5c91f7707e}\index{MatchManager.RealMatchManager@{MatchManager.RealMatchManager}!DeleteEvent@{DeleteEvent}}
+\index{DeleteEvent@{DeleteEvent}!MatchManager.RealMatchManager@{MatchManager.RealMatchManager}}
+\doxysubsubsection{\texorpdfstring{DeleteEvent()}{DeleteEvent()}}
+{\footnotesize\ttfamily \label{class_match_manager_1_1_real_match_manager_a62751af0cbec657d335c6f5c91f7707e} 
+void Match\+Manager.\+Real\+Match\+Manager.\+Delete\+Event (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_match_stats_1_1_match}{Match}}}]{match}{, }\item[{\mbox{\hyperlink{class_match_stats_1_1_event}{Event}}}]{e}{}\end{DoxyParamCaption})}
+
+
+
+Sterge un eveniment dintr-\/un meci. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em match} & Meciul din care se sterge evenimentul.\\
+\hline
+{\em e} & Evenimentul de sters.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_match_manager_1_1_i_match_manager_a140a646aef62970b4a2ec9616d042127}{Match\+Manager.\+IMatch\+Manager}}.
+
+\Hypertarget{class_match_manager_1_1_real_match_manager_ac0298df17b814ee49e50288dd82903cd}\index{MatchManager.RealMatchManager@{MatchManager.RealMatchManager}!GetEvents@{GetEvents}}
+\index{GetEvents@{GetEvents}!MatchManager.RealMatchManager@{MatchManager.RealMatchManager}}
+\doxysubsubsection{\texorpdfstring{GetEvents()}{GetEvents()}}
+{\footnotesize\ttfamily \label{class_match_manager_1_1_real_match_manager_ac0298df17b814ee49e50288dd82903cd} 
+Stack$<$ \mbox{\hyperlink{class_match_stats_1_1_event}{Event}} $>$ Match\+Manager.\+Real\+Match\+Manager.\+Get\+Events (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_match_stats_1_1_match}{Match}}}]{m}{}\end{DoxyParamCaption})}
+
+
+
+Returneaza toate evenimentele asociate unui meci sub forma de stack. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em m} & Meciul pentru care se cer evenimentele.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_match_manager_1_1_i_match_manager_af22376ae5ee22542bf2a158cf2f16e9e}{Match\+Manager.\+IMatch\+Manager}}.
+
+\Hypertarget{class_match_manager_1_1_real_match_manager_af48ce7ce74f286c782322aeab7a69672}\index{MatchManager.RealMatchManager@{MatchManager.RealMatchManager}!GetMatches@{GetMatches}}
+\index{GetMatches@{GetMatches}!MatchManager.RealMatchManager@{MatchManager.RealMatchManager}}
+\doxysubsubsection{\texorpdfstring{GetMatches()}{GetMatches()}}
+{\footnotesize\ttfamily \label{class_match_manager_1_1_real_match_manager_af48ce7ce74f286c782322aeab7a69672} 
+Stack$<$ \mbox{\hyperlink{class_match_stats_1_1_match}{Match}} $>$ Match\+Manager.\+Real\+Match\+Manager.\+Get\+Matches (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Returneaza toate meciurile sub forma unui stack (ultimele update-\/uri apar primele). 
+
+
+
+Implements \mbox{\hyperlink{interface_match_manager_1_1_i_match_manager_aff084c5ab0492556ded7864642ec47b1}{Match\+Manager.\+IMatch\+Manager}}.
+
+\Hypertarget{class_match_manager_1_1_real_match_manager_a806015806e952a4a0cd7c184733c44a3}\index{MatchManager.RealMatchManager@{MatchManager.RealMatchManager}!RemoveMatch@{RemoveMatch}}
+\index{RemoveMatch@{RemoveMatch}!MatchManager.RealMatchManager@{MatchManager.RealMatchManager}}
+\doxysubsubsection{\texorpdfstring{RemoveMatch()}{RemoveMatch()}}
+{\footnotesize\ttfamily \label{class_match_manager_1_1_real_match_manager_a806015806e952a4a0cd7c184733c44a3} 
+void Match\+Manager.\+Real\+Match\+Manager.\+Remove\+Match (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_match_stats_1_1_match}{Match}}}]{match}{}\end{DoxyParamCaption})}
+
+
+
+Elimina un meci din lista. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em match} & Meciul de eliminat.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_match_manager_1_1_i_match_manager_a6ca325e229c659d5a38d2ee04e677c79}{Match\+Manager.\+IMatch\+Manager}}.
+
+\Hypertarget{class_match_manager_1_1_real_match_manager_af7e829092a7ec8b034ac091fff34c670}\index{MatchManager.RealMatchManager@{MatchManager.RealMatchManager}!UpdateEvent@{UpdateEvent}}
+\index{UpdateEvent@{UpdateEvent}!MatchManager.RealMatchManager@{MatchManager.RealMatchManager}}
+\doxysubsubsection{\texorpdfstring{UpdateEvent()}{UpdateEvent()}}
+{\footnotesize\ttfamily \label{class_match_manager_1_1_real_match_manager_af7e829092a7ec8b034ac091fff34c670} 
+void Match\+Manager.\+Real\+Match\+Manager.\+Update\+Event (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_match_stats_1_1_match}{Match}}}]{match}{, }\item[{\mbox{\hyperlink{class_match_stats_1_1_event}{Event}}}]{e}{, }\item[{\mbox{\hyperlink{class_match_stats_1_1_event}{Event}}}]{new\+Event}{}\end{DoxyParamCaption})}
+
+
+
+Actualizeaza un eveniment existent cu unul nou. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em match} & Meciul in care se actualizeaza evenimentul.\\
+\hline
+{\em e} & Evenimentul vechi.\\
+\hline
+{\em new\+Event} & Evenimentul nou.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_match_manager_1_1_i_match_manager_a69049f5a5a7101acadcc9c2e30ae4351}{Match\+Manager.\+IMatch\+Manager}}.
+
+\Hypertarget{class_match_manager_1_1_real_match_manager_a3cdfe0ad9cff3d1f52cbc60b2216ddad}\index{MatchManager.RealMatchManager@{MatchManager.RealMatchManager}!UpdateMatch@{UpdateMatch}}
+\index{UpdateMatch@{UpdateMatch}!MatchManager.RealMatchManager@{MatchManager.RealMatchManager}}
+\doxysubsubsection{\texorpdfstring{UpdateMatch()}{UpdateMatch()}}
+{\footnotesize\ttfamily \label{class_match_manager_1_1_real_match_manager_a3cdfe0ad9cff3d1f52cbc60b2216ddad} 
+void Match\+Manager.\+Real\+Match\+Manager.\+Update\+Match (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_match_stats_1_1_match}{Match}}}]{match}{, }\item[{\mbox{\hyperlink{class_match_stats_1_1_match}{Match}}}]{new\+Match}{}\end{DoxyParamCaption})}
+
+
+
+Actualizeaza informatiile unui meci existent. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em match} & Meciul vechi.\\
+\hline
+{\em new\+Match} & Noul meci cu datele actualizate.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_match_manager_1_1_i_match_manager_a3fef32d38211007bb7a2dc8077a51cd9}{Match\+Manager.\+IMatch\+Manager}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/ruben/\+One\+Drive/\+Desktop/facultate/\+AN\+\_\+3/ingineria\+\_\+programarii/\+Instant\+Score\+News\+App/\+Match\+Manager\+Lib/\mbox{\hyperlink{_real_match_manager_8cs}{Real\+Match\+Manager.\+cs}}\end{DoxyCompactItemize}

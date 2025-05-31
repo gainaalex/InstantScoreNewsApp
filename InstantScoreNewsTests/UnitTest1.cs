@@ -17,29 +17,45 @@ namespace InstantScoreNewsTests;
 public class UnitTest1
 {
     ProxyMatchManager proxy=new ProxyMatchManager();
+    /// <summary>
+    /// Testeaza autentificarea reusita a utilizatorului admin cu parola corecta.
+    /// </summary>
     [TestMethod]
     public void Test_Login_1()
     {
         Assert.AreEqual(true, proxy.Login("admin", "admin"));
     }
 
+    /// <summary>
+    /// Testeaza autentificarea reusita a utilizatorului admin cu parola gresita.
+    /// </summary>
     [TestMethod]
     public void Test_Login_2()
     {
         Assert.AreEqual(false, proxy.Login("admin", "1234"));
     }
 
+    /// <summary>
+    /// Testeaza autentificarea reusita a utilizatorului alex cu parola corecta.
+    /// </summary>
     [TestMethod]
     public void Test_Login_3()
     {
         Assert.AreEqual(true, proxy.Login("alex", "alex"));
     }
 
+    /// <summary>
+    /// Testeaza esecul reusita a utilizatorului alex cu parola gresita.
+    /// </summary>
     [TestMethod]
     public void Test_Login_4()
     {
         Assert.AreEqual(false, proxy.Login("ana", "Ana"));
     }
+
+    /// <summary>
+    /// Testeaza esecul autentificarii utilizatorului ruben cu parola gresita(case sensitive).
+    /// </summary>
 
     [TestMethod]
     public void Test_Login_5()
@@ -47,7 +63,9 @@ public class UnitTest1
         Assert.AreEqual(false, proxy.Login("ruben", "Ruben"));
     }
 
-
+    /// <summary>
+    /// Testeaza constructorul User cu username invalid "." si verifica aruncarea exceptiei ArgumentException.
+    /// </summary>
     [TestMethod]
     [ExpectedException(typeof(ArgumentException))]
     public void User_constructor_1()
@@ -55,19 +73,28 @@ public class UnitTest1
         User user = new User(".","parola",0);
     }
 
+    /// <summary>
+    /// Testeaza constructorul User cu un username valid si nu arunca exceptie.
+    /// </summary>
     [TestMethod]
     public void User_constructor_2()
     {
         User user = new User("1234", "parola", 0);
     }
-    // nu poti avea '.' in username
+
+    /// <summary>
+    /// Testeaza constructorul User cu username ce contine caracter invalid '.' si verifica aruncarea exceptiei.
+    /// </summary>
     [TestMethod]
     [ExpectedException(typeof(ArgumentException))]
     public void User_constructor_3()
     {
         User user = new User("Gaina.10", "parola", 0);
     }
-    //trebuie sa aiba minim 3 caractere username-ul
+
+    /// <summary>
+    /// Testeaza constructorul User cu username mai scurt de 3 caractere si verifica aruncarea exceptiei.
+    /// </summary>
     [TestMethod]
     [ExpectedException(typeof(ArgumentException))]
     public void User_constructor_4()
@@ -75,7 +102,9 @@ public class UnitTest1
         User user = new User("gx", "parola", 0);
     }
 
-    //trebuie sa aiba maxim 16 caractere username-ul
+    /// <summary>
+    /// Testeaza constructorul User cu username mai lung de 16 caractere si verifica aruncarea exceptiei.
+    /// </summary>
     [TestMethod]
     [ExpectedException(typeof(ArgumentException))]
     public void User_constructor_5()
@@ -83,7 +112,9 @@ public class UnitTest1
         User user = new User("qwertyuiopasdfghj", "parola", 0);
     }
 
-    //sunt permise doar litere , numere si '_'
+    /// <summary>
+    /// Testeaza constructorul User cu username ce contine caracter invalid '.' si verifica aruncarea exceptiei.
+    /// </summary>
     [TestMethod]
     [ExpectedException(typeof(ArgumentException))]
     public void User_constructor_6()
@@ -91,7 +122,9 @@ public class UnitTest1
         User user = new User("beto.4", "parola", 0);
     }
 
-    // acelas input trebuie sa returneze acelas hash
+    /// <summary>
+    /// Testeaza ca acelasi input in hasher returneaza acelasi hash.
+    /// </summary>
     [TestMethod]
     public void PasswordHasher_HashString_1()
     {
@@ -101,7 +134,9 @@ public class UnitTest1
         Assert.AreEqual(hash1, hash2);
     }
 
-    // inputuri diferite trebuie sa returneze hashuri diferite
+    /// <summary>
+    /// Testeaza ca doua inputuri diferite genereaza hashuri diferite.
+    /// </summary>
     [TestMethod]
     public void PasswordHasher_HashString_2()
     {
@@ -110,7 +145,9 @@ public class UnitTest1
         Assert.AreNotEqual(hash1, hash2);
     }
 
-    // inputul gol trebuie sa returneze un hash valid (nevid)
+    /// <summary>
+    /// Testeaza ca un input gol returneaza un hash valid (nevid).
+    /// </summary>
     [TestMethod]
     public void PasswordHasher_HashString_3()
     {
@@ -118,7 +155,9 @@ public class UnitTest1
         Assert.IsFalse(string.IsNullOrEmpty(hash));
     }
 
-    // inputul cu caractere unicode trebuie procesat corect
+    /// <summary>
+    /// Testeaza hashing-ul unui input ce contine caractere unicode.
+    /// </summary>
     [TestMethod]
     public void PasswordHasher_HashString_4()
     {
@@ -127,7 +166,9 @@ public class UnitTest1
         Assert.IsFalse(string.IsNullOrEmpty(hash));
     }
 
-    // hashul generat trebuie sa aiba 28 de caractere (base64)
+    /// <summary>
+    /// Testeaza ca hashul generat are lungimea de 28 caractere (Base64).
+    /// </summary>
     [TestMethod]
     public void PasswordHasher_HashString_5()
     {
@@ -136,7 +177,9 @@ public class UnitTest1
         Assert.AreEqual(28, hash.Length);
     }
 
-    // adaugarea unui meci trebuie sa il includa in lista
+    /// <summary>
+    /// Testeaza ca adaugarea unui meci il include in lista de meciuri.
+    /// </summary>
     [TestMethod]
     public void AddMatch()
     {
@@ -147,7 +190,9 @@ public class UnitTest1
         Assert.IsTrue(matches.Contains(match));
     }
 
-    // stergerea unui meci trebuie sa il elimine din lista
+    /// <summary>
+    /// Testeaza ca stergerea unui meci il elimina din lista de meciuri.
+    /// </summary>
     [TestMethod]
     public void RealMatchManager_RemoveMatch()
     {
@@ -159,7 +204,9 @@ public class UnitTest1
         Assert.IsFalse(matches.Contains(match));
     }
 
-    // actualizarea unui meci modifica scorurile
+    /// <summary>
+    /// Testeaza ca actualizarea unui meci modifica scorurile acestuia.
+    /// </summary>
     [TestMethod]
     public void RealMatchManager_UpdateMatch()
     {
@@ -174,7 +221,9 @@ public class UnitTest1
         Assert.AreEqual(2, result.ScorOaspete);
     }
 
-    // adaugarea unui eveniment trebuie sa il includa in lista meciului
+    /// <summary>
+    /// Testeaza ca adaugarea unui eveniment il include in lista evenimentelor meciului.
+    /// </summary>
     [TestMethod]
     public void RealMatchManager_AddEvent()
     {
@@ -187,7 +236,9 @@ public class UnitTest1
         Assert.IsTrue(events.Contains(ev));
     }
 
-    // stergerea unui eveniment trebuie sa il elimine din lista
+    /// <summary>
+    /// Testeaza ca stergerea unui eveniment il elimina din lista evenimentelor meciului.
+    /// </summary>
     [TestMethod]
     public void RealMatchManager_DeleteEvent()
     {

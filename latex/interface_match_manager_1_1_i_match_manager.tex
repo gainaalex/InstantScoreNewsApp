@@ -1,0 +1,125 @@
+\doxysection{Match\+Manager.\+IMatch\+Manager Interface Reference}
+\hypertarget{interface_match_manager_1_1_i_match_manager}{}\label{interface_match_manager_1_1_i_match_manager}\index{MatchManager.IMatchManager@{MatchManager.IMatchManager}}
+
+
+Interfață care definește funcționalitățile esențiale pentru gestionarea meciurilor și evenimentelor acestora, utilizată de clasele \doxylink{class_match_manager_1_1_proxy_match_manager}{Proxy\+Match\+Manager} și \doxylink{class_match_manager_1_1_real_match_manager}{Real\+Match\+Manager}.  
+
+
+Inheritance diagram for Match\+Manager.\+IMatch\+Manager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_match_manager_1_1_i_match_manager}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Stack$<$ \mbox{\hyperlink{class_match_stats_1_1_match}{Match}} $>$ \mbox{\hyperlink{interface_match_manager_1_1_i_match_manager_aff084c5ab0492556ded7864642ec47b1}{Get\+Matches}} ()
+\item 
+Stack$<$ \mbox{\hyperlink{class_match_stats_1_1_event}{Event}} $>$ \mbox{\hyperlink{interface_match_manager_1_1_i_match_manager_af22376ae5ee22542bf2a158cf2f16e9e}{Get\+Events}} (\mbox{\hyperlink{class_match_stats_1_1_match}{Match}} match)
+\item 
+void \mbox{\hyperlink{interface_match_manager_1_1_i_match_manager_a5b829e3d8735b6eb9b263e486ffb426e}{Add\+Match}} (\mbox{\hyperlink{class_match_stats_1_1_match}{Match}} match)
+\item 
+void \mbox{\hyperlink{interface_match_manager_1_1_i_match_manager_a6ca325e229c659d5a38d2ee04e677c79}{Remove\+Match}} (\mbox{\hyperlink{class_match_stats_1_1_match}{Match}} match)
+\item 
+void \mbox{\hyperlink{interface_match_manager_1_1_i_match_manager_a3fef32d38211007bb7a2dc8077a51cd9}{Update\+Match}} (\mbox{\hyperlink{class_match_stats_1_1_match}{Match}} match, \mbox{\hyperlink{class_match_stats_1_1_match}{Match}} new\+Match)
+\item 
+void \mbox{\hyperlink{interface_match_manager_1_1_i_match_manager_ad54a6d783471ee09c59bc8dda65bc22c}{Add\+Event}} (\mbox{\hyperlink{class_match_stats_1_1_match}{Match}} match, \mbox{\hyperlink{class_match_stats_1_1_event}{Event}} e)
+\item 
+void \mbox{\hyperlink{interface_match_manager_1_1_i_match_manager_a140a646aef62970b4a2ec9616d042127}{Delete\+Event}} (\mbox{\hyperlink{class_match_stats_1_1_match}{Match}} match, \mbox{\hyperlink{class_match_stats_1_1_event}{Event}} e)
+\item 
+void \mbox{\hyperlink{interface_match_manager_1_1_i_match_manager_a69049f5a5a7101acadcc9c2e30ae4351}{Update\+Event}} (\mbox{\hyperlink{class_match_stats_1_1_match}{Match}} match, \mbox{\hyperlink{class_match_stats_1_1_event}{Event}} e, \mbox{\hyperlink{class_match_stats_1_1_event}{Event}} new\+Event)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Interfață care definește funcționalitățile esențiale pentru gestionarea meciurilor și evenimentelor acestora, utilizată de clasele \doxylink{class_match_manager_1_1_proxy_match_manager}{Proxy\+Match\+Manager} și \doxylink{class_match_manager_1_1_real_match_manager}{Real\+Match\+Manager}. 
+
+\label{doc-func-members}
+\Hypertarget{interface_match_manager_1_1_i_match_manager_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{interface_match_manager_1_1_i_match_manager_ad54a6d783471ee09c59bc8dda65bc22c}\index{MatchManager.IMatchManager@{MatchManager.IMatchManager}!AddEvent@{AddEvent}}
+\index{AddEvent@{AddEvent}!MatchManager.IMatchManager@{MatchManager.IMatchManager}}
+\doxysubsubsection{\texorpdfstring{AddEvent()}{AddEvent()}}
+{\footnotesize\ttfamily \label{interface_match_manager_1_1_i_match_manager_ad54a6d783471ee09c59bc8dda65bc22c} 
+void Match\+Manager.\+IMatch\+Manager.\+Add\+Event (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_match_stats_1_1_match}{Match}}}]{match}{, }\item[{\mbox{\hyperlink{class_match_stats_1_1_event}{Event}}}]{e}{}\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_match_manager_1_1_proxy_match_manager_ad38e4c49036a48fec549314499151b08}{Match\+Manager.\+Proxy\+Match\+Manager}}, and \mbox{\hyperlink{class_match_manager_1_1_real_match_manager_ac737ca61e6e7d2cedf180e6229c09160}{Match\+Manager.\+Real\+Match\+Manager}}.
+
+\Hypertarget{interface_match_manager_1_1_i_match_manager_a5b829e3d8735b6eb9b263e486ffb426e}\index{MatchManager.IMatchManager@{MatchManager.IMatchManager}!AddMatch@{AddMatch}}
+\index{AddMatch@{AddMatch}!MatchManager.IMatchManager@{MatchManager.IMatchManager}}
+\doxysubsubsection{\texorpdfstring{AddMatch()}{AddMatch()}}
+{\footnotesize\ttfamily \label{interface_match_manager_1_1_i_match_manager_a5b829e3d8735b6eb9b263e486ffb426e} 
+void Match\+Manager.\+IMatch\+Manager.\+Add\+Match (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_match_stats_1_1_match}{Match}}}]{match}{}\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_match_manager_1_1_proxy_match_manager_a41ba5e9c20347065824651879701e90f}{Match\+Manager.\+Proxy\+Match\+Manager}}, and \mbox{\hyperlink{class_match_manager_1_1_real_match_manager_a4901d867293b56d356a883e12eb86c67}{Match\+Manager.\+Real\+Match\+Manager}}.
+
+\Hypertarget{interface_match_manager_1_1_i_match_manager_a140a646aef62970b4a2ec9616d042127}\index{MatchManager.IMatchManager@{MatchManager.IMatchManager}!DeleteEvent@{DeleteEvent}}
+\index{DeleteEvent@{DeleteEvent}!MatchManager.IMatchManager@{MatchManager.IMatchManager}}
+\doxysubsubsection{\texorpdfstring{DeleteEvent()}{DeleteEvent()}}
+{\footnotesize\ttfamily \label{interface_match_manager_1_1_i_match_manager_a140a646aef62970b4a2ec9616d042127} 
+void Match\+Manager.\+IMatch\+Manager.\+Delete\+Event (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_match_stats_1_1_match}{Match}}}]{match}{, }\item[{\mbox{\hyperlink{class_match_stats_1_1_event}{Event}}}]{e}{}\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_match_manager_1_1_proxy_match_manager_ae795ada0d418c23ac680ba1b221a7db6}{Match\+Manager.\+Proxy\+Match\+Manager}}, and \mbox{\hyperlink{class_match_manager_1_1_real_match_manager_a62751af0cbec657d335c6f5c91f7707e}{Match\+Manager.\+Real\+Match\+Manager}}.
+
+\Hypertarget{interface_match_manager_1_1_i_match_manager_af22376ae5ee22542bf2a158cf2f16e9e}\index{MatchManager.IMatchManager@{MatchManager.IMatchManager}!GetEvents@{GetEvents}}
+\index{GetEvents@{GetEvents}!MatchManager.IMatchManager@{MatchManager.IMatchManager}}
+\doxysubsubsection{\texorpdfstring{GetEvents()}{GetEvents()}}
+{\footnotesize\ttfamily \label{interface_match_manager_1_1_i_match_manager_af22376ae5ee22542bf2a158cf2f16e9e} 
+Stack$<$ \mbox{\hyperlink{class_match_stats_1_1_event}{Event}} $>$ Match\+Manager.\+IMatch\+Manager.\+Get\+Events (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_match_stats_1_1_match}{Match}}}]{match}{}\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_match_manager_1_1_proxy_match_manager_aaa638bb4de76e2e7fa7af1a760e5a506}{Match\+Manager.\+Proxy\+Match\+Manager}}, and \mbox{\hyperlink{class_match_manager_1_1_real_match_manager_ac0298df17b814ee49e50288dd82903cd}{Match\+Manager.\+Real\+Match\+Manager}}.
+
+\Hypertarget{interface_match_manager_1_1_i_match_manager_aff084c5ab0492556ded7864642ec47b1}\index{MatchManager.IMatchManager@{MatchManager.IMatchManager}!GetMatches@{GetMatches}}
+\index{GetMatches@{GetMatches}!MatchManager.IMatchManager@{MatchManager.IMatchManager}}
+\doxysubsubsection{\texorpdfstring{GetMatches()}{GetMatches()}}
+{\footnotesize\ttfamily \label{interface_match_manager_1_1_i_match_manager_aff084c5ab0492556ded7864642ec47b1} 
+Stack$<$ \mbox{\hyperlink{class_match_stats_1_1_match}{Match}} $>$ Match\+Manager.\+IMatch\+Manager.\+Get\+Matches (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_match_manager_1_1_proxy_match_manager_a1a5bf72b9d1800d2ebc4c5da3d3ae8b2}{Match\+Manager.\+Proxy\+Match\+Manager}}, and \mbox{\hyperlink{class_match_manager_1_1_real_match_manager_af48ce7ce74f286c782322aeab7a69672}{Match\+Manager.\+Real\+Match\+Manager}}.
+
+\Hypertarget{interface_match_manager_1_1_i_match_manager_a6ca325e229c659d5a38d2ee04e677c79}\index{MatchManager.IMatchManager@{MatchManager.IMatchManager}!RemoveMatch@{RemoveMatch}}
+\index{RemoveMatch@{RemoveMatch}!MatchManager.IMatchManager@{MatchManager.IMatchManager}}
+\doxysubsubsection{\texorpdfstring{RemoveMatch()}{RemoveMatch()}}
+{\footnotesize\ttfamily \label{interface_match_manager_1_1_i_match_manager_a6ca325e229c659d5a38d2ee04e677c79} 
+void Match\+Manager.\+IMatch\+Manager.\+Remove\+Match (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_match_stats_1_1_match}{Match}}}]{match}{}\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_match_manager_1_1_proxy_match_manager_ae888554aeb59c39503c11e3afff22acd}{Match\+Manager.\+Proxy\+Match\+Manager}}, and \mbox{\hyperlink{class_match_manager_1_1_real_match_manager_a806015806e952a4a0cd7c184733c44a3}{Match\+Manager.\+Real\+Match\+Manager}}.
+
+\Hypertarget{interface_match_manager_1_1_i_match_manager_a69049f5a5a7101acadcc9c2e30ae4351}\index{MatchManager.IMatchManager@{MatchManager.IMatchManager}!UpdateEvent@{UpdateEvent}}
+\index{UpdateEvent@{UpdateEvent}!MatchManager.IMatchManager@{MatchManager.IMatchManager}}
+\doxysubsubsection{\texorpdfstring{UpdateEvent()}{UpdateEvent()}}
+{\footnotesize\ttfamily \label{interface_match_manager_1_1_i_match_manager_a69049f5a5a7101acadcc9c2e30ae4351} 
+void Match\+Manager.\+IMatch\+Manager.\+Update\+Event (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_match_stats_1_1_match}{Match}}}]{match}{, }\item[{\mbox{\hyperlink{class_match_stats_1_1_event}{Event}}}]{e}{, }\item[{\mbox{\hyperlink{class_match_stats_1_1_event}{Event}}}]{new\+Event}{}\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_match_manager_1_1_proxy_match_manager_af21809f07a05b8b64cd5daef766b51cf}{Match\+Manager.\+Proxy\+Match\+Manager}}, and \mbox{\hyperlink{class_match_manager_1_1_real_match_manager_af7e829092a7ec8b034ac091fff34c670}{Match\+Manager.\+Real\+Match\+Manager}}.
+
+\Hypertarget{interface_match_manager_1_1_i_match_manager_a3fef32d38211007bb7a2dc8077a51cd9}\index{MatchManager.IMatchManager@{MatchManager.IMatchManager}!UpdateMatch@{UpdateMatch}}
+\index{UpdateMatch@{UpdateMatch}!MatchManager.IMatchManager@{MatchManager.IMatchManager}}
+\doxysubsubsection{\texorpdfstring{UpdateMatch()}{UpdateMatch()}}
+{\footnotesize\ttfamily \label{interface_match_manager_1_1_i_match_manager_a3fef32d38211007bb7a2dc8077a51cd9} 
+void Match\+Manager.\+IMatch\+Manager.\+Update\+Match (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_match_stats_1_1_match}{Match}}}]{match}{, }\item[{\mbox{\hyperlink{class_match_stats_1_1_match}{Match}}}]{new\+Match}{}\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_match_manager_1_1_proxy_match_manager_abdcd9c5431afb1da9d4816deec4a5aef}{Match\+Manager.\+Proxy\+Match\+Manager}}, and \mbox{\hyperlink{class_match_manager_1_1_real_match_manager_a3cdfe0ad9cff3d1f52cbc60b2216ddad}{Match\+Manager.\+Real\+Match\+Manager}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/ruben/\+One\+Drive/\+Desktop/facultate/\+AN\+\_\+3/ingineria\+\_\+programarii/\+Instant\+Score\+News\+App/\+Match\+Manager\+Lib/\mbox{\hyperlink{_i_match_manager_8cs}{IMatch\+Manager.\+cs}}\end{DoxyCompactItemize}

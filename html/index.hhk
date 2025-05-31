@@ -1,0 +1,628 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_user_lib_1_1_user.html#aa5f7314095aa17f45004e81a99c47842"><param name="Name" value="AccesType"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_match.html#a4911ad00378ee9afbf8c4f26aded4e56"><param name="Name" value="AddEvent(Event e)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_match_manager_1_1_i_match_manager.html#ad54a6d783471ee09c59bc8dda65bc22c"><param name="Name" value="AddEvent(Match match, Event e)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_match_manager_1_1_i_match_manager.html#ad54a6d783471ee09c59bc8dda65bc22c"><param name="Name" value="MatchManager::IMatchManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#ad38e4c49036a48fec549314499151b08"><param name="Name" value="AddEvent(Match match, Event e)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#ad38e4c49036a48fec549314499151b08"><param name="Name" value="MatchManager::ProxyMatchManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html#ac737ca61e6e7d2cedf180e6229c09160"><param name="Name" value="AddEvent(Match match, Event e)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html#ac737ca61e6e7d2cedf180e6229c09160"><param name="Name" value="MatchManager::RealMatchManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#aeba4cc571a364d5d0a76ed8f9b344ca0"><param name="Name" value="AddMatch()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_match_manager_1_1_i_match_manager.html#a5b829e3d8735b6eb9b263e486ffb426e"><param name="Name" value="AddMatch(Match match)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_match_manager_1_1_i_match_manager.html#a5b829e3d8735b6eb9b263e486ffb426e"><param name="Name" value="MatchManager::IMatchManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#a41ba5e9c20347065824651879701e90f"><param name="Name" value="AddMatch(Match match)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#a41ba5e9c20347065824651879701e90f"><param name="Name" value="MatchManager::ProxyMatchManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html#a4901d867293b56d356a883e12eb86c67"><param name="Name" value="AddMatch(Match match)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html#a4901d867293b56d356a883e12eb86c67"><param name="Name" value="MatchManager::RealMatchManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#a8347e637f884be7abd6976f3bf71a4eb"><param name="Name" value="AddUser(string username, string password)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#a40ce7a8a9e61c7f6087cbf581c3e4005"><param name="Name" value="Attach(Subscriber subscriber)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#a40ce7a8a9e61c7f6087cbf581c3e4005"><param name="Name" value="MatchManager::ProxyMatchManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_observer_lib_1_1_subject.html#a8ee7fe3ab0090035fc81dae603c0e8d1"><param name="Name" value="Attach(Subscriber subscriber)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_observer_lib_1_1_subject.html#a8ee7fe3ab0090035fc81dae603c0e8d1"><param name="Name" value="ObserverLib::Subject"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#a49fb2fd0503f73dd3916e0983bb238aa"><param name="Name" value="CurrentUser"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_match_manager_1_1_i_match_manager.html#a140a646aef62970b4a2ec9616d042127"><param name="Name" value="DeleteEvent(Match match, Event e)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_match_manager_1_1_i_match_manager.html#a140a646aef62970b4a2ec9616d042127"><param name="Name" value="MatchManager::IMatchManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#ae795ada0d418c23ac680ba1b221a7db6"><param name="Name" value="DeleteEvent(Match match, Event e)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#ae795ada0d418c23ac680ba1b221a7db6"><param name="Name" value="MatchManager::ProxyMatchManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html#a62751af0cbec657d335c6f5c91f7707e"><param name="Name" value="DeleteEvent(Match match, Event e)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html#a62751af0cbec657d335c6f5c91f7707e"><param name="Name" value="MatchManager::RealMatchManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_event.html#a4fa1b354221e9bc2c78ca02205c163e5"><param name="Name" value="descriere"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#a332d43eade48c7170de3d644cc455b84"><param name="Name" value="Detach(Subscriber subscriber)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#a332d43eade48c7170de3d644cc455b84"><param name="Name" value="MatchManager::ProxyMatchManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_observer_lib_1_1_subject.html#a3f9cc855794fad453b7410f60d2ffd15"><param name="Name" value="Detach(Subscriber subscriber)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_observer_lib_1_1_subject.html#a3f9cc855794fad453b7410f60d2ffd15"><param name="Name" value="ObserverLib::Subject"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_event_form.html#ac15297ce06073b5e184f0d31ce14e956"><param name="Name" value="Dispose(bool disposing)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_event_form.html#ac15297ce06073b5e184f0d31ce14e956"><param name="Name" value="InstantScoreNewsApp::EventForm"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_instant_score_news.html#adf8fb34dda2f3b32405a1e3d1e64b87b"><param name="Name" value="Dispose(bool disposing)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_instant_score_news.html#adf8fb34dda2f3b32405a1e3d1e64b87b"><param name="Name" value="InstantScoreNewsApp::InstantScoreNews"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_login.html#a72e722055ee2e0499145d75a544f6d6f"><param name="Name" value="Dispose(bool disposing)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_login.html#a72e722055ee2e0499145d75a544f6d6f"><param name="Name" value="InstantScoreNewsApp::Login"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_match_form.html#a466ebb2759bcd76685a4604b1c3f0bf8"><param name="Name" value="Dispose(bool disposing)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_match_form.html#a466ebb2759bcd76685a4604b1c3f0bf8"><param name="Name" value="InstantScoreNewsApp::MatchForm"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_sign_in.html#a2e78686b815c8d6e17fc9de3daf279dc"><param name="Name" value="Dispose(bool disposing)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_sign_in.html#a2e78686b815c8d6e17fc9de3daf279dc"><param name="Name" value="InstantScoreNewsApp::SignIn"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_event_form.html#a82147489952a221f7c474e2e92dcd37c"><param name="Name" value="eveniment"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_match.html#a9fa1f045f69d72cb441a627bb7b23538"><param name="Name" value="Evenimente"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_event.html#a8be8543eb51e549beccf01b4c0bf7a5e"><param name="Name" value="Event(int minut, string descriere)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_event_form.html#afffda4ea08c1d0f77eea08c0ca8ba95d"><param name="Name" value="EventForm()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_event_form.html#a88e6e575f1cee0547be4035fc8b6523b"><param name="Name" value="EventForm(Event e)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_match.html#af43943da72a2eae6a5af73d11794ab08"><param name="Name" value="Gazda"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html#ac0298df17b814ee49e50288dd82903cd"><param name="Name" value="GetEvents(Match m)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_match_manager_1_1_i_match_manager.html#af22376ae5ee22542bf2a158cf2f16e9e"><param name="Name" value="GetEvents(Match match)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_match_manager_1_1_i_match_manager.html#af22376ae5ee22542bf2a158cf2f16e9e"><param name="Name" value="MatchManager::IMatchManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#aaa638bb4de76e2e7fa7af1a760e5a506"><param name="Name" value="GetEvents(Match match)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#aaa638bb4de76e2e7fa7af1a760e5a506"><param name="Name" value="MatchManager::ProxyMatchManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_match_manager_1_1_i_match_manager.html#aff084c5ab0492556ded7864642ec47b1"><param name="Name" value="GetMatches()"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_match_manager_1_1_i_match_manager.html#aff084c5ab0492556ded7864642ec47b1"><param name="Name" value="MatchManager::IMatchManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#a1a5bf72b9d1800d2ebc4c5da3d3ae8b2"><param name="Name" value="GetMatches()"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#a1a5bf72b9d1800d2ebc4c5da3d3ae8b2"><param name="Name" value="MatchManager::ProxyMatchManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html#af48ce7ce74f286c782322aeab7a69672"><param name="Name" value="GetMatches()"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html#af48ce7ce74f286c782322aeab7a69672"><param name="Name" value="MatchManager::RealMatchManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_password_hasher_1_1_password_hasher.html#aeabd640b43f017d91752580d07d1ae4b"><param name="Name" value="HashString(string str)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_instant_score_news.html#a9d2559bf8e4f94bc923b08b8ab34cb6c"><param name="Name" value="InstantScoreNews()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_instant_score_news_app.html"><param name="Name" value="InstantScoreNewsApp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_event_form.html"><param name="Name" value="InstantScoreNewsApp::EventForm"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_event_form.html"><param name="Name" value="InstantScoreNewsApp::EventForm"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_event_form.html#ac15297ce06073b5e184f0d31ce14e956"><param name="Name" value="Dispose(bool disposing)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_event_form.html"><param name="Name" value="InstantScoreNewsApp::EventForm"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_event_form.html#a82147489952a221f7c474e2e92dcd37c"><param name="Name" value="eveniment"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_event_form.html"><param name="Name" value="InstantScoreNewsApp::EventForm"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_event_form.html#afffda4ea08c1d0f77eea08c0ca8ba95d"><param name="Name" value="EventForm()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_event_form.html"><param name="Name" value="InstantScoreNewsApp::EventForm"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_event_form.html#a88e6e575f1cee0547be4035fc8b6523b"><param name="Name" value="EventForm(Event e)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_instant_score_news.html"><param name="Name" value="InstantScoreNewsApp::InstantScoreNews"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_instant_score_news.html"><param name="Name" value="InstantScoreNewsApp::InstantScoreNews"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_instant_score_news.html#adf8fb34dda2f3b32405a1e3d1e64b87b"><param name="Name" value="Dispose(bool disposing)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_instant_score_news.html"><param name="Name" value="InstantScoreNewsApp::InstantScoreNews"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_instant_score_news.html#a9d2559bf8e4f94bc923b08b8ab34cb6c"><param name="Name" value="InstantScoreNews()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_login.html"><param name="Name" value="InstantScoreNewsApp::Login"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_login.html"><param name="Name" value="InstantScoreNewsApp::Login"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_login.html#a72e722055ee2e0499145d75a544f6d6f"><param name="Name" value="Dispose(bool disposing)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_login.html"><param name="Name" value="InstantScoreNewsApp::Login"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_login.html#a666a549595c6838673bfbf7bfe91226f"><param name="Name" value="Login(ProxyMatchManager p)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_login.html"><param name="Name" value="InstantScoreNewsApp::Login"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_login.html#ac0fe1ab42e96c03d4a632acc38c3bdfe"><param name="Name" value="succesfullAuthentification"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_match_form.html"><param name="Name" value="InstantScoreNewsApp::MatchForm"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_match_form.html"><param name="Name" value="InstantScoreNewsApp::MatchForm"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_match_form.html#a466ebb2759bcd76685a4604b1c3f0bf8"><param name="Name" value="Dispose(bool disposing)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_match_form.html"><param name="Name" value="InstantScoreNewsApp::MatchForm"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_match_form.html#aa5b91043ab45c3a86f665a16a002228a"><param name="Name" value="match"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_match_form.html"><param name="Name" value="InstantScoreNewsApp::MatchForm"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_match_form.html#a2d0e9b10166d480cf9f661d3a757cc37"><param name="Name" value="MatchForm()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_match_form.html"><param name="Name" value="InstantScoreNewsApp::MatchForm"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_match_form.html#ae38271eaf90526e6a08064da3c45e829"><param name="Name" value="MatchForm(Match m)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_sign_in.html"><param name="Name" value="InstantScoreNewsApp::SignIn"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_sign_in.html"><param name="Name" value="InstantScoreNewsApp::SignIn"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_sign_in.html#a2e78686b815c8d6e17fc9de3daf279dc"><param name="Name" value="Dispose(bool disposing)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_sign_in.html"><param name="Name" value="InstantScoreNewsApp::SignIn"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_sign_in.html#a64d905bb48dd355c2ab90616081b10ae"><param name="Name" value="SignIn(ProxyMatchManager p)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_instant_score_news_tests.html"><param name="Name" value="InstantScoreNewsTests"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html"><param name="Name" value="InstantScoreNewsTests::UnitTest1"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html"><param name="Name" value="InstantScoreNewsTests::UnitTest1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#aeba4cc571a364d5d0a76ed8f9b344ca0"><param name="Name" value="AddMatch()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html"><param name="Name" value="InstantScoreNewsTests::UnitTest1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#a2b2ecacb82b35b906c734ef81e83900d"><param name="Name" value="PasswordHasher_HashString_1()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html"><param name="Name" value="InstantScoreNewsTests::UnitTest1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#ab7b4c35185efa453e5ed1c20d4cbfe3d"><param name="Name" value="PasswordHasher_HashString_2()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html"><param name="Name" value="InstantScoreNewsTests::UnitTest1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#a4403c148b43045bf35d2ee997c431f59"><param name="Name" value="PasswordHasher_HashString_3()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html"><param name="Name" value="InstantScoreNewsTests::UnitTest1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#ae0cae5d74ae94ad0bb8412c3506540d7"><param name="Name" value="PasswordHasher_HashString_4()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html"><param name="Name" value="InstantScoreNewsTests::UnitTest1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#a7ac340c781c74b1efd645eb5f2707aff"><param name="Name" value="PasswordHasher_HashString_5()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html"><param name="Name" value="InstantScoreNewsTests::UnitTest1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#af6ac46197e209fbb5c0bf45171bfc44b"><param name="Name" value="RealMatchManager_AddEvent()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html"><param name="Name" value="InstantScoreNewsTests::UnitTest1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#a624f1c19c2a642c0c7354dd73ea58e7f"><param name="Name" value="RealMatchManager_DeleteEvent()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html"><param name="Name" value="InstantScoreNewsTests::UnitTest1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#a140a7bf8dc98fc35435e3643dd45bd59"><param name="Name" value="RealMatchManager_RemoveMatch()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html"><param name="Name" value="InstantScoreNewsTests::UnitTest1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#a1dd28ec1cb29bfe6a066d773dc88cd24"><param name="Name" value="RealMatchManager_UpdateMatch()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html"><param name="Name" value="InstantScoreNewsTests::UnitTest1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#ae6fd69f1695ca574bb3c83aa6cf9d415"><param name="Name" value="Test_Login_1()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html"><param name="Name" value="InstantScoreNewsTests::UnitTest1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#acaeff28dc63ceb31c6da34d6e5aabd19"><param name="Name" value="Test_Login_2()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html"><param name="Name" value="InstantScoreNewsTests::UnitTest1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#a297c73cec30ccd2567af13af60ca9454"><param name="Name" value="Test_Login_3()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html"><param name="Name" value="InstantScoreNewsTests::UnitTest1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#a20d5df23c848f894d76449a23b2a2edc"><param name="Name" value="Test_Login_4()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html"><param name="Name" value="InstantScoreNewsTests::UnitTest1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#ad67befd4fcd2c2a39ad725ec1839ef7d"><param name="Name" value="Test_Login_5()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html"><param name="Name" value="InstantScoreNewsTests::UnitTest1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#a443e3bde061f7a5aec61c2e7e2893349"><param name="Name" value="User_constructor_1()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html"><param name="Name" value="InstantScoreNewsTests::UnitTest1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#a2d2c0b84505ab9a88b070ab91f3ca88d"><param name="Name" value="User_constructor_2()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html"><param name="Name" value="InstantScoreNewsTests::UnitTest1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#acba50b2297d4455a9fe67ff0f6ff0ef2"><param name="Name" value="User_constructor_3()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html"><param name="Name" value="InstantScoreNewsTests::UnitTest1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#aa585a29ea6137f8084223c1fa201ca9a"><param name="Name" value="User_constructor_4()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html"><param name="Name" value="InstantScoreNewsTests::UnitTest1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#af14fb8cf4e877d300631ba6ac8da92f7"><param name="Name" value="User_constructor_5()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html"><param name="Name" value="InstantScoreNewsTests::UnitTest1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#a48b7a14c6608a640546d9ca5800a84c3"><param name="Name" value="User_constructor_6()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_user_lib_1_1_user.html#a9f31808080ab043611bd290fb5a63b4a"><param name="Name" value="isAdmin()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_login.html#a666a549595c6838673bfbf7bfe91226f"><param name="Name" value="Login(ProxyMatchManager p)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#a22ded0e8fa6ece22f1e1d0c47b2f1476"><param name="Name" value="Login(String username, String password)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_match.html#ae269afcd17285e2f93f4a0a905197843"><param name="Name" value="Match(Match m)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_match.html#add5e8327bdda4472a9806bcf43f9e729"><param name="Name" value="Match(string gazda, string oaspete, int scorGazda, int scorOaspete)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_match_form.html#aa5b91043ab45c3a86f665a16a002228a"><param name="Name" value="match"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_match_form.html#a2d0e9b10166d480cf9f661d3a757cc37"><param name="Name" value="MatchForm()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_match_form.html#ae38271eaf90526e6a08064da3c45e829"><param name="Name" value="MatchForm(Match m)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_match_manager.html"><param name="Name" value="MatchManager"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_match_manager_1_1_i_match_manager.html"><param name="Name" value="MatchManager::IMatchManager"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_match_manager_1_1_i_match_manager.html"><param name="Name" value="MatchManager::IMatchManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_match_manager_1_1_i_match_manager.html#ad54a6d783471ee09c59bc8dda65bc22c"><param name="Name" value="AddEvent(Match match, Event e)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_match_manager_1_1_i_match_manager.html"><param name="Name" value="MatchManager::IMatchManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_match_manager_1_1_i_match_manager.html#a5b829e3d8735b6eb9b263e486ffb426e"><param name="Name" value="AddMatch(Match match)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_match_manager_1_1_i_match_manager.html"><param name="Name" value="MatchManager::IMatchManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_match_manager_1_1_i_match_manager.html#a140a646aef62970b4a2ec9616d042127"><param name="Name" value="DeleteEvent(Match match, Event e)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_match_manager_1_1_i_match_manager.html"><param name="Name" value="MatchManager::IMatchManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_match_manager_1_1_i_match_manager.html#af22376ae5ee22542bf2a158cf2f16e9e"><param name="Name" value="GetEvents(Match match)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_match_manager_1_1_i_match_manager.html"><param name="Name" value="MatchManager::IMatchManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_match_manager_1_1_i_match_manager.html#aff084c5ab0492556ded7864642ec47b1"><param name="Name" value="GetMatches()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_match_manager_1_1_i_match_manager.html"><param name="Name" value="MatchManager::IMatchManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_match_manager_1_1_i_match_manager.html#a6ca325e229c659d5a38d2ee04e677c79"><param name="Name" value="RemoveMatch(Match match)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_match_manager_1_1_i_match_manager.html"><param name="Name" value="MatchManager::IMatchManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_match_manager_1_1_i_match_manager.html#a69049f5a5a7101acadcc9c2e30ae4351"><param name="Name" value="UpdateEvent(Match match, Event e, Event newEvent)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_match_manager_1_1_i_match_manager.html"><param name="Name" value="MatchManager::IMatchManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_match_manager_1_1_i_match_manager.html#a3fef32d38211007bb7a2dc8077a51cd9"><param name="Name" value="UpdateMatch(Match match, Match newMatch)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html"><param name="Name" value="MatchManager::ProxyMatchManager"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html"><param name="Name" value="MatchManager::ProxyMatchManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#ad38e4c49036a48fec549314499151b08"><param name="Name" value="AddEvent(Match match, Event e)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html"><param name="Name" value="MatchManager::ProxyMatchManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#a41ba5e9c20347065824651879701e90f"><param name="Name" value="AddMatch(Match match)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html"><param name="Name" value="MatchManager::ProxyMatchManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#a8347e637f884be7abd6976f3bf71a4eb"><param name="Name" value="AddUser(string username, string password)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html"><param name="Name" value="MatchManager::ProxyMatchManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#a40ce7a8a9e61c7f6087cbf581c3e4005"><param name="Name" value="Attach(Subscriber subscriber)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html"><param name="Name" value="MatchManager::ProxyMatchManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#a49fb2fd0503f73dd3916e0983bb238aa"><param name="Name" value="CurrentUser"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html"><param name="Name" value="MatchManager::ProxyMatchManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#ae795ada0d418c23ac680ba1b221a7db6"><param name="Name" value="DeleteEvent(Match match, Event e)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html"><param name="Name" value="MatchManager::ProxyMatchManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#a332d43eade48c7170de3d644cc455b84"><param name="Name" value="Detach(Subscriber subscriber)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html"><param name="Name" value="MatchManager::ProxyMatchManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#aaa638bb4de76e2e7fa7af1a760e5a506"><param name="Name" value="GetEvents(Match match)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html"><param name="Name" value="MatchManager::ProxyMatchManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#a1a5bf72b9d1800d2ebc4c5da3d3ae8b2"><param name="Name" value="GetMatches()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html"><param name="Name" value="MatchManager::ProxyMatchManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#a22ded0e8fa6ece22f1e1d0c47b2f1476"><param name="Name" value="Login(String username, String password)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html"><param name="Name" value="MatchManager::ProxyMatchManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#af124a07b09d660d655494fd808481560"><param name="Name" value="Notify(string notificare)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html"><param name="Name" value="MatchManager::ProxyMatchManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#a1d732b6b6af8cc4021bed1b0c629ccb0"><param name="Name" value="ProxyMatchManager()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html"><param name="Name" value="MatchManager::ProxyMatchManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#ae888554aeb59c39503c11e3afff22acd"><param name="Name" value="RemoveMatch(Match match)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html"><param name="Name" value="MatchManager::ProxyMatchManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#af21809f07a05b8b64cd5daef766b51cf"><param name="Name" value="UpdateEvent(Match match, Event e, Event newEvent)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html"><param name="Name" value="MatchManager::ProxyMatchManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#abdcd9c5431afb1da9d4816deec4a5aef"><param name="Name" value="UpdateMatch(Match match, Match newMatch)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html"><param name="Name" value="MatchManager::ProxyMatchManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#a44bc5762545c376a2c50413f97b3781a"><param name="Name" value="UserIsAdmin()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html"><param name="Name" value="MatchManager::RealMatchManager"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html"><param name="Name" value="MatchManager::RealMatchManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html#ac737ca61e6e7d2cedf180e6229c09160"><param name="Name" value="AddEvent(Match match, Event e)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html"><param name="Name" value="MatchManager::RealMatchManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html#a4901d867293b56d356a883e12eb86c67"><param name="Name" value="AddMatch(Match match)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html"><param name="Name" value="MatchManager::RealMatchManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html#a62751af0cbec657d335c6f5c91f7707e"><param name="Name" value="DeleteEvent(Match match, Event e)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html"><param name="Name" value="MatchManager::RealMatchManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html#ac0298df17b814ee49e50288dd82903cd"><param name="Name" value="GetEvents(Match m)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html"><param name="Name" value="MatchManager::RealMatchManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html#af48ce7ce74f286c782322aeab7a69672"><param name="Name" value="GetMatches()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html"><param name="Name" value="MatchManager::RealMatchManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html#a986310ef87909f53f48d0c52f1705f44"><param name="Name" value="RealMatchManager()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html"><param name="Name" value="MatchManager::RealMatchManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html#a806015806e952a4a0cd7c184733c44a3"><param name="Name" value="RemoveMatch(Match match)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html"><param name="Name" value="MatchManager::RealMatchManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html#af7e829092a7ec8b034ac091fff34c670"><param name="Name" value="UpdateEvent(Match match, Event e, Event newEvent)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html"><param name="Name" value="MatchManager::RealMatchManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html#a3cdfe0ad9cff3d1f52cbc60b2216ddad"><param name="Name" value="UpdateMatch(Match match, Match newMatch)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_match_stats.html"><param name="Name" value="MatchStats"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_event.html"><param name="Name" value="MatchStats::Event"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_event.html"><param name="Name" value="MatchStats::Event"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_event.html#a4fa1b354221e9bc2c78ca02205c163e5"><param name="Name" value="descriere"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_event.html"><param name="Name" value="MatchStats::Event"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_event.html#a8be8543eb51e549beccf01b4c0bf7a5e"><param name="Name" value="Event(int minut, string descriere)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_event.html"><param name="Name" value="MatchStats::Event"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_event.html#a778c24d6f58344a169c762f5871e1579"><param name="Name" value="minut"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_event.html"><param name="Name" value="MatchStats::Event"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_event.html#ab75f2a8d2386857a4f76e038e0c3f656"><param name="Name" value="ToString()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_match.html"><param name="Name" value="MatchStats::Match"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_match.html"><param name="Name" value="MatchStats::Match"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_match.html#a4911ad00378ee9afbf8c4f26aded4e56"><param name="Name" value="AddEvent(Event e)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_match.html"><param name="Name" value="MatchStats::Match"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_match.html#a9fa1f045f69d72cb441a627bb7b23538"><param name="Name" value="Evenimente"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_match.html"><param name="Name" value="MatchStats::Match"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_match.html#af43943da72a2eae6a5af73d11794ab08"><param name="Name" value="Gazda"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_match.html"><param name="Name" value="MatchStats::Match"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_match.html#ae269afcd17285e2f93f4a0a905197843"><param name="Name" value="Match(Match m)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_match.html"><param name="Name" value="MatchStats::Match"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_match.html#add5e8327bdda4472a9806bcf43f9e729"><param name="Name" value="Match(string gazda, string oaspete, int scorGazda, int scorOaspete)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_match.html"><param name="Name" value="MatchStats::Match"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_match.html#a8aa1bc585ac436af81c0b5b5c869a5b0"><param name="Name" value="Oaspete"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_match.html"><param name="Name" value="MatchStats::Match"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_match.html#a2b2a18fd373f6f933cc237d766c52562"><param name="Name" value="RemoveEvent(Event e)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_match.html"><param name="Name" value="MatchStats::Match"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_match.html#ae3e1e7795cc44646bd065ecbfc0b9412"><param name="Name" value="ScorGazda"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_match.html"><param name="Name" value="MatchStats::Match"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_match.html#a220d768dfc9b84f90108bb15d0084a62"><param name="Name" value="ScorOaspete"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_match.html"><param name="Name" value="MatchStats::Match"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_match.html#acc27e7fbc06348ce4ef783e8e58398ab"><param name="Name" value="ToString()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_event.html#a778c24d6f58344a169c762f5871e1579"><param name="Name" value="minut"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_user_lib_1_1_user.html#ac5d3dd2e3f29b597186ed323845bfcd3"><param name="Name" value="Notificari"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#af124a07b09d660d655494fd808481560"><param name="Name" value="Notify(string notificare)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#af124a07b09d660d655494fd808481560"><param name="Name" value="MatchManager::ProxyMatchManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_observer_lib_1_1_subject.html#a2d0464b76f819870a09a0c4bbdd23318"><param name="Name" value="Notify(string notificare)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_observer_lib_1_1_subject.html#a2d0464b76f819870a09a0c4bbdd23318"><param name="Name" value="ObserverLib::Subject"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_match.html#a8aa1bc585ac436af81c0b5b5c869a5b0"><param name="Name" value="Oaspete"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_observer_lib.html"><param name="Name" value="ObserverLib"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_observer_lib_1_1_subject.html"><param name="Name" value="ObserverLib::Subject"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_observer_lib_1_1_subject.html"><param name="Name" value="ObserverLib::Subject"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_observer_lib_1_1_subject.html#a8ee7fe3ab0090035fc81dae603c0e8d1"><param name="Name" value="Attach(Subscriber subscriber)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_observer_lib_1_1_subject.html"><param name="Name" value="ObserverLib::Subject"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_observer_lib_1_1_subject.html#a3f9cc855794fad453b7410f60d2ffd15"><param name="Name" value="Detach(Subscriber subscriber)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_observer_lib_1_1_subject.html"><param name="Name" value="ObserverLib::Subject"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_observer_lib_1_1_subject.html#a2d0464b76f819870a09a0c4bbdd23318"><param name="Name" value="Notify(string notificare)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_observer_lib_1_1_subscriber.html"><param name="Name" value="ObserverLib::Subscriber"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_observer_lib_1_1_subscriber.html"><param name="Name" value="ObserverLib::Subscriber"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_observer_lib_1_1_subscriber.html#a0976c7c566fa5e11106327e5cfc57e5e"><param name="Name" value="Update(string notificare)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_user_lib_1_1_user.html#a29b6ca94b1a0a03943f15563e02dd119"><param name="Name" value="Password"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_password_hasher.html"><param name="Name" value="PasswordHasher"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_password_hasher_1_1_password_hasher.html"><param name="Name" value="PasswordHasher::PasswordHasher"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_password_hasher_1_1_password_hasher.html"><param name="Name" value="PasswordHasher::PasswordHasher"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_password_hasher_1_1_password_hasher.html#aeabd640b43f017d91752580d07d1ae4b"><param name="Name" value="HashString(string str)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#a2b2ecacb82b35b906c734ef81e83900d"><param name="Name" value="PasswordHasher_HashString_1()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#ab7b4c35185efa453e5ed1c20d4cbfe3d"><param name="Name" value="PasswordHasher_HashString_2()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#a4403c148b43045bf35d2ee997c431f59"><param name="Name" value="PasswordHasher_HashString_3()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#ae0cae5d74ae94ad0bb8412c3506540d7"><param name="Name" value="PasswordHasher_HashString_4()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#a7ac340c781c74b1efd645eb5f2707aff"><param name="Name" value="PasswordHasher_HashString_5()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#a1d732b6b6af8cc4021bed1b0c629ccb0"><param name="Name" value="ProxyMatchManager()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html#a986310ef87909f53f48d0c52f1705f44"><param name="Name" value="RealMatchManager()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#af6ac46197e209fbb5c0bf45171bfc44b"><param name="Name" value="RealMatchManager_AddEvent()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#a624f1c19c2a642c0c7354dd73ea58e7f"><param name="Name" value="RealMatchManager_DeleteEvent()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#a140a7bf8dc98fc35435e3643dd45bd59"><param name="Name" value="RealMatchManager_RemoveMatch()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#a1dd28ec1cb29bfe6a066d773dc88cd24"><param name="Name" value="RealMatchManager_UpdateMatch()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_match.html#a2b2a18fd373f6f933cc237d766c52562"><param name="Name" value="RemoveEvent(Event e)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_match_manager_1_1_i_match_manager.html#a6ca325e229c659d5a38d2ee04e677c79"><param name="Name" value="RemoveMatch(Match match)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_match_manager_1_1_i_match_manager.html#a6ca325e229c659d5a38d2ee04e677c79"><param name="Name" value="MatchManager::IMatchManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#ae888554aeb59c39503c11e3afff22acd"><param name="Name" value="RemoveMatch(Match match)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#ae888554aeb59c39503c11e3afff22acd"><param name="Name" value="MatchManager::ProxyMatchManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html#a806015806e952a4a0cd7c184733c44a3"><param name="Name" value="RemoveMatch(Match match)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html#a806015806e952a4a0cd7c184733c44a3"><param name="Name" value="MatchManager::RealMatchManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_match.html#ae3e1e7795cc44646bd065ecbfc0b9412"><param name="Name" value="ScorGazda"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_match.html#a220d768dfc9b84f90108bb15d0084a62"><param name="Name" value="ScorOaspete"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_sign_in.html#a64d905bb48dd355c2ab90616081b10ae"><param name="Name" value="SignIn(ProxyMatchManager p)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_app_1_1_login.html#ac0fe1ab42e96c03d4a632acc38c3bdfe"><param name="Name" value="succesfullAuthentification"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#ae6fd69f1695ca574bb3c83aa6cf9d415"><param name="Name" value="Test_Login_1()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#acaeff28dc63ceb31c6da34d6e5aabd19"><param name="Name" value="Test_Login_2()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#a297c73cec30ccd2567af13af60ca9454"><param name="Name" value="Test_Login_3()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#a20d5df23c848f894d76449a23b2a2edc"><param name="Name" value="Test_Login_4()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#ad67befd4fcd2c2a39ad725ec1839ef7d"><param name="Name" value="Test_Login_5()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_event.html#ab75f2a8d2386857a4f76e038e0c3f656"><param name="Name" value="ToString()"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_event.html#ab75f2a8d2386857a4f76e038e0c3f656"><param name="Name" value="MatchStats::Event"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_match.html#acc27e7fbc06348ce4ef783e8e58398ab"><param name="Name" value="ToString()"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_stats_1_1_match.html#acc27e7fbc06348ce4ef783e8e58398ab"><param name="Name" value="MatchStats::Match"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_user_lib_1_1_user.html#a82896e31de8947f666e4a3a15b8958d0"><param name="Name" value="ToString()"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_user_lib_1_1_user.html#a82896e31de8947f666e4a3a15b8958d0"><param name="Name" value="UserLib::User"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_observer_lib_1_1_subscriber.html#a0976c7c566fa5e11106327e5cfc57e5e"><param name="Name" value="Update(string notificare)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_observer_lib_1_1_subscriber.html#a0976c7c566fa5e11106327e5cfc57e5e"><param name="Name" value="ObserverLib::Subscriber"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_user_lib_1_1_user.html#a91a18188dc38f1f2c4e34eee02cd466d"><param name="Name" value="Update(string notificare)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_user_lib_1_1_user.html#a91a18188dc38f1f2c4e34eee02cd466d"><param name="Name" value="UserLib::User"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_match_manager_1_1_i_match_manager.html#a69049f5a5a7101acadcc9c2e30ae4351"><param name="Name" value="UpdateEvent(Match match, Event e, Event newEvent)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_match_manager_1_1_i_match_manager.html#a69049f5a5a7101acadcc9c2e30ae4351"><param name="Name" value="MatchManager::IMatchManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#af21809f07a05b8b64cd5daef766b51cf"><param name="Name" value="UpdateEvent(Match match, Event e, Event newEvent)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#af21809f07a05b8b64cd5daef766b51cf"><param name="Name" value="MatchManager::ProxyMatchManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html#af7e829092a7ec8b034ac091fff34c670"><param name="Name" value="UpdateEvent(Match match, Event e, Event newEvent)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html#af7e829092a7ec8b034ac091fff34c670"><param name="Name" value="MatchManager::RealMatchManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_match_manager_1_1_i_match_manager.html#a3fef32d38211007bb7a2dc8077a51cd9"><param name="Name" value="UpdateMatch(Match match, Match newMatch)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_match_manager_1_1_i_match_manager.html#a3fef32d38211007bb7a2dc8077a51cd9"><param name="Name" value="MatchManager::IMatchManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#abdcd9c5431afb1da9d4816deec4a5aef"><param name="Name" value="UpdateMatch(Match match, Match newMatch)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#abdcd9c5431afb1da9d4816deec4a5aef"><param name="Name" value="MatchManager::ProxyMatchManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html#a3cdfe0ad9cff3d1f52cbc60b2216ddad"><param name="Name" value="UpdateMatch(Match match, Match newMatch)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_real_match_manager.html#a3cdfe0ad9cff3d1f52cbc60b2216ddad"><param name="Name" value="MatchManager::RealMatchManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_user_lib_1_1_user.html#a1768730fcd8ba61062f1ee47285ddd4e"><param name="Name" value="User(in string username, in string password, in int accesType)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#a443e3bde061f7a5aec61c2e7e2893349"><param name="Name" value="User_constructor_1()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#a2d2c0b84505ab9a88b070ab91f3ca88d"><param name="Name" value="User_constructor_2()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#acba50b2297d4455a9fe67ff0f6ff0ef2"><param name="Name" value="User_constructor_3()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#aa585a29ea6137f8084223c1fa201ca9a"><param name="Name" value="User_constructor_4()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#af14fb8cf4e877d300631ba6ac8da92f7"><param name="Name" value="User_constructor_5()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_instant_score_news_tests_1_1_unit_test1.html#a48b7a14c6608a640546d9ca5800a84c3"><param name="Name" value="User_constructor_6()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_match_manager_1_1_proxy_match_manager.html#a44bc5762545c376a2c50413f97b3781a"><param name="Name" value="UserIsAdmin()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_user_lib.html"><param name="Name" value="UserLib"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_user_lib_1_1_user.html"><param name="Name" value="UserLib::User"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_user_lib_1_1_user.html"><param name="Name" value="UserLib::User"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_user_lib_1_1_user.html#aa5f7314095aa17f45004e81a99c47842"><param name="Name" value="AccesType"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_user_lib_1_1_user.html"><param name="Name" value="UserLib::User"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_user_lib_1_1_user.html#a9f31808080ab043611bd290fb5a63b4a"><param name="Name" value="isAdmin()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_user_lib_1_1_user.html"><param name="Name" value="UserLib::User"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_user_lib_1_1_user.html#ac5d3dd2e3f29b597186ed323845bfcd3"><param name="Name" value="Notificari"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_user_lib_1_1_user.html"><param name="Name" value="UserLib::User"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_user_lib_1_1_user.html#a29b6ca94b1a0a03943f15563e02dd119"><param name="Name" value="Password"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_user_lib_1_1_user.html"><param name="Name" value="UserLib::User"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_user_lib_1_1_user.html#a82896e31de8947f666e4a3a15b8958d0"><param name="Name" value="ToString()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_user_lib_1_1_user.html"><param name="Name" value="UserLib::User"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_user_lib_1_1_user.html#a91a18188dc38f1f2c4e34eee02cd466d"><param name="Name" value="Update(string notificare)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_user_lib_1_1_user.html"><param name="Name" value="UserLib::User"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_user_lib_1_1_user.html#a1768730fcd8ba61062f1ee47285ddd4e"><param name="Name" value="User(in string username, in string password, in int accesType)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_user_lib_1_1_user.html"><param name="Name" value="UserLib::User"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_user_lib_1_1_user.html#a4548139340cbb4faf9e88d432cf9edbf"><param name="Name" value="Username"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_user_lib_1_1_user.html#a4548139340cbb4faf9e88d432cf9edbf"><param name="Name" value="Username"></OBJECT>
+</UL>
+</BODY>
+</HTML>

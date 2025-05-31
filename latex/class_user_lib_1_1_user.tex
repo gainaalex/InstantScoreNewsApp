@@ -1,0 +1,150 @@
+\doxysection{User\+Lib.\+User Class Reference}
+\hypertarget{class_user_lib_1_1_user}{}\label{class_user_lib_1_1_user}\index{UserLib.User@{UserLib.User}}
+Inheritance diagram for User\+Lib.\+User\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_user_lib_1_1_user}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_user_lib_1_1_user_a1768730fcd8ba61062f1ee47285ddd4e}{User}} (in string username, in string password, in int acces\+Type)
+\begin{DoxyCompactList}\small\item\em Constructor pentru clasa \doxylink{class_user_lib_1_1_user}{User}. Verifica formatul username-\/ului si initializeaza datele utilizatorului. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_user_lib_1_1_user_a9f31808080ab043611bd290fb5a63b4a}{is\+Admin}} ()
+\begin{DoxyCompactList}\small\item\em Verifica daca utilizatorul este admin. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_user_lib_1_1_user_a91a18188dc38f1f2c4e34eee02cd466d}{Update}} (string notificare)
+\begin{DoxyCompactList}\small\item\em Metoda apelata de subiect pentru a trimite o notificare catre acest utilizator. \end{DoxyCompactList}\item 
+override string \mbox{\hyperlink{class_user_lib_1_1_user_a82896e31de8947f666e4a3a15b8958d0}{To\+String}} ()
+\begin{DoxyCompactList}\small\item\em Returneaza o reprezentare textuala a obiectului \doxylink{class_user_lib_1_1_user}{User}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ string $>$ \mbox{\hyperlink{class_user_lib_1_1_user_ac5d3dd2e3f29b597186ed323845bfcd3}{Notificari}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_user_lib_1_1_user_a4548139340cbb4faf9e88d432cf9edbf}{Username}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Returneaza numele de utilizator. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_user_lib_1_1_user_a29b6ca94b1a0a03943f15563e02dd119}{Password}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Returneaza parola utilizatorului (hashuita). \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_user_lib_1_1_user_aa5f7314095aa17f45004e81a99c47842}{Acces\+Type}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Returneaza tipul de acces al utilizatorului. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\label{doc-constructors}
+\Hypertarget{class_user_lib_1_1_user_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_user_lib_1_1_user_a1768730fcd8ba61062f1ee47285ddd4e}\index{UserLib.User@{UserLib.User}!User@{User}}
+\index{User@{User}!UserLib.User@{UserLib.User}}
+\doxysubsubsection{\texorpdfstring{User()}{User()}}
+{\footnotesize\ttfamily \label{class_user_lib_1_1_user_a1768730fcd8ba61062f1ee47285ddd4e} 
+User\+Lib.\+User.\+User (\begin{DoxyParamCaption}\item[{in string}]{username}{, }\item[{in string}]{password}{, }\item[{in int}]{acces\+Type}{}\end{DoxyParamCaption})}
+
+
+
+Constructor pentru clasa \doxylink{class_user_lib_1_1_user}{User}. Verifica formatul username-\/ului si initializeaza datele utilizatorului. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em username} & Numele de utilizator (3-\/16 caractere, litere, cifre, underscore)\\
+\hline
+{\em password} & Parola (hashuita)\\
+\hline
+{\em acces\+Type} & Tipul de acces (-\/1 pentru admin, 0 pentru user obisnuit)\\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{class_user_lib_1_1_user_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_user_lib_1_1_user_a9f31808080ab043611bd290fb5a63b4a}\index{UserLib.User@{UserLib.User}!isAdmin@{isAdmin}}
+\index{isAdmin@{isAdmin}!UserLib.User@{UserLib.User}}
+\doxysubsubsection{\texorpdfstring{isAdmin()}{isAdmin()}}
+{\footnotesize\ttfamily \label{class_user_lib_1_1_user_a9f31808080ab043611bd290fb5a63b4a} 
+bool User\+Lib.\+User.\+is\+Admin (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica daca utilizatorul este admin. 
+
+\begin{DoxyReturn}{Returns}
+True daca este admin, altfel false
+\end{DoxyReturn}
+\Hypertarget{class_user_lib_1_1_user_a82896e31de8947f666e4a3a15b8958d0}\index{UserLib.User@{UserLib.User}!ToString@{ToString}}
+\index{ToString@{ToString}!UserLib.User@{UserLib.User}}
+\doxysubsubsection{\texorpdfstring{ToString()}{ToString()}}
+{\footnotesize\ttfamily \label{class_user_lib_1_1_user_a82896e31de8947f666e4a3a15b8958d0} 
+override string User\+Lib.\+User.\+To\+String (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Returneaza o reprezentare textuala a obiectului \doxylink{class_user_lib_1_1_user}{User}. 
+
+\begin{DoxyReturn}{Returns}
+Username-\/ul si tipul de acces sub forma string
+\end{DoxyReturn}
+\Hypertarget{class_user_lib_1_1_user_a91a18188dc38f1f2c4e34eee02cd466d}\index{UserLib.User@{UserLib.User}!Update@{Update}}
+\index{Update@{Update}!UserLib.User@{UserLib.User}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily \label{class_user_lib_1_1_user_a91a18188dc38f1f2c4e34eee02cd466d} 
+void User\+Lib.\+User.\+Update (\begin{DoxyParamCaption}\item[{string}]{notificare}{}\end{DoxyParamCaption})}
+
+
+
+Metoda apelata de subiect pentru a trimite o notificare catre acest utilizator. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em notificare} & Mesajul de notificare\\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_observer_lib_1_1_subscriber_a0976c7c566fa5e11106327e5cfc57e5e}{Observer\+Lib.\+Subscriber}}.
+
+
+
+\label{doc-property-members}
+\Hypertarget{class_user_lib_1_1_user_doc-property-members}
+\doxysubsection{Property Documentation}
+\Hypertarget{class_user_lib_1_1_user_aa5f7314095aa17f45004e81a99c47842}\index{UserLib.User@{UserLib.User}!AccesType@{AccesType}}
+\index{AccesType@{AccesType}!UserLib.User@{UserLib.User}}
+\doxysubsubsection{\texorpdfstring{AccesType}{AccesType}}
+{\footnotesize\ttfamily \label{class_user_lib_1_1_user_aa5f7314095aa17f45004e81a99c47842} 
+int User\+Lib.\+User.\+Acces\+Type\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Returneaza tipul de acces al utilizatorului. 
+
+\Hypertarget{class_user_lib_1_1_user_ac5d3dd2e3f29b597186ed323845bfcd3}\index{UserLib.User@{UserLib.User}!Notificari@{Notificari}}
+\index{Notificari@{Notificari}!UserLib.User@{UserLib.User}}
+\doxysubsubsection{\texorpdfstring{Notificari}{Notificari}}
+{\footnotesize\ttfamily \label{class_user_lib_1_1_user_ac5d3dd2e3f29b597186ed323845bfcd3} 
+List$<$string$>$ User\+Lib.\+User.\+Notificari\hspace{0.3cm}{\ttfamily [get]}}
+
+\Hypertarget{class_user_lib_1_1_user_a29b6ca94b1a0a03943f15563e02dd119}\index{UserLib.User@{UserLib.User}!Password@{Password}}
+\index{Password@{Password}!UserLib.User@{UserLib.User}}
+\doxysubsubsection{\texorpdfstring{Password}{Password}}
+{\footnotesize\ttfamily \label{class_user_lib_1_1_user_a29b6ca94b1a0a03943f15563e02dd119} 
+string User\+Lib.\+User.\+Password\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Returneaza parola utilizatorului (hashuita). 
+
+\Hypertarget{class_user_lib_1_1_user_a4548139340cbb4faf9e88d432cf9edbf}\index{UserLib.User@{UserLib.User}!Username@{Username}}
+\index{Username@{Username}!UserLib.User@{UserLib.User}}
+\doxysubsubsection{\texorpdfstring{Username}{Username}}
+{\footnotesize\ttfamily \label{class_user_lib_1_1_user_a4548139340cbb4faf9e88d432cf9edbf} 
+string User\+Lib.\+User.\+Username\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Returneaza numele de utilizator. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/ruben/\+One\+Drive/\+Desktop/facultate/\+AN\+\_\+3/ingineria\+\_\+programarii/\+Instant\+Score\+News\+App/\+User\+Library/\mbox{\hyperlink{_user_8cs}{User.\+cs}}\end{DoxyCompactItemize}

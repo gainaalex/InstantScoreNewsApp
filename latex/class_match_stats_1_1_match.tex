@@ -1,0 +1,185 @@
+\doxysection{Match\+Stats.\+Match Class Reference}
+\hypertarget{class_match_stats_1_1_match}{}\label{class_match_stats_1_1_match}\index{MatchStats.Match@{MatchStats.Match}}
+
+
+Data class ce stoceaza meciul cu datele despre echipele angrenate si evenimentele de pe parcurs.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_match_stats_1_1_match_ae269afcd17285e2f93f4a0a905197843}{Match}} (\mbox{\hyperlink{class_match_stats_1_1_match}{Match}} m)
+\begin{DoxyCompactList}\small\item\em Constructor de copiere pentru clasa \doxylink{class_match_stats_1_1_match}{Match}. Creeaza o noua instanta pe baza unui meci existent. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_match_stats_1_1_match_add5e8327bdda4472a9806bcf43f9e729}{Match}} (string gazda, string oaspete, int scor\+Gazda, int scor\+Oaspete)
+\begin{DoxyCompactList}\small\item\em Constructor pentru clasa \doxylink{class_match_stats_1_1_match}{Match}. Initializeaza un meci cu numele echipelor si scorurile initiale. Valideaza numele echipelor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_match_stats_1_1_match_a4911ad00378ee9afbf8c4f26aded4e56}{Add\+Event}} (\mbox{\hyperlink{class_match_stats_1_1_event}{Event}} e)
+\begin{DoxyCompactList}\small\item\em Adauga un eveniment in lista evenimentelor meciului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_match_stats_1_1_match_a2b2a18fd373f6f933cc237d766c52562}{Remove\+Event}} (\mbox{\hyperlink{class_match_stats_1_1_event}{Event}} e)
+\begin{DoxyCompactList}\small\item\em Elimina un eveniment din lista evenimentelor meciului. \end{DoxyCompactList}\item 
+override string \mbox{\hyperlink{class_match_stats_1_1_match_acc27e7fbc06348ce4ef783e8e58398ab}{To\+String}} ()
+\begin{DoxyCompactList}\small\item\em Returneaza o reprezentare textuala a meciului (ex\+: Romania 2\+:1 Franta). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_match_stats_1_1_match_af43943da72a2eae6a5af73d11794ab08}{Gazda}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Proprietate pentru echipa gazda. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_match_stats_1_1_match_a8aa1bc585ac436af81c0b5b5c869a5b0}{Oaspete}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Proprietate pentru echipa oaspete. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_match_stats_1_1_match_ae3e1e7795cc44646bd065ecbfc0b9412}{Scor\+Gazda}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Proprietate pentru scorul echipei gazda. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_match_stats_1_1_match_a220d768dfc9b84f90108bb15d0084a62}{Scor\+Oaspete}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Proprietate pentru scorul echipei oaspete. \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_match_stats_1_1_event}{Event}} $>$ \mbox{\hyperlink{class_match_stats_1_1_match_a9fa1f045f69d72cb441a627bb7b23538}{Evenimente}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Returneaza lista de evenimente ale meciului. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Data class ce stoceaza meciul cu datele despre echipele angrenate si evenimentele de pe parcurs. 
+
+\label{doc-constructors}
+\Hypertarget{class_match_stats_1_1_match_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_match_stats_1_1_match_ae269afcd17285e2f93f4a0a905197843}\index{MatchStats.Match@{MatchStats.Match}!Match@{Match}}
+\index{Match@{Match}!MatchStats.Match@{MatchStats.Match}}
+\doxysubsubsection{\texorpdfstring{Match()}{Match()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_match_stats_1_1_match_ae269afcd17285e2f93f4a0a905197843} 
+Match\+Stats.\+Match.\+Match (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_match_stats_1_1_match}{Match}}}]{m}{}\end{DoxyParamCaption})}
+
+
+
+Constructor de copiere pentru clasa \doxylink{class_match_stats_1_1_match}{Match}. Creeaza o noua instanta pe baza unui meci existent. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em m} & Meciul sursa\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_match_stats_1_1_match_add5e8327bdda4472a9806bcf43f9e729}\index{MatchStats.Match@{MatchStats.Match}!Match@{Match}}
+\index{Match@{Match}!MatchStats.Match@{MatchStats.Match}}
+\doxysubsubsection{\texorpdfstring{Match()}{Match()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_match_stats_1_1_match_add5e8327bdda4472a9806bcf43f9e729} 
+Match\+Stats.\+Match.\+Match (\begin{DoxyParamCaption}\item[{string}]{gazda}{, }\item[{string}]{oaspete}{, }\item[{int}]{scor\+Gazda}{, }\item[{int}]{scor\+Oaspete}{}\end{DoxyParamCaption})}
+
+
+
+Constructor pentru clasa \doxylink{class_match_stats_1_1_match}{Match}. Initializeaza un meci cu numele echipelor si scorurile initiale. Valideaza numele echipelor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em gazda} & Numele echipei gazda\\
+\hline
+{\em oaspete} & Numele echipei oaspete\\
+\hline
+{\em scor\+Gazda} & Scorul echipei gazda\\
+\hline
+{\em scor\+Oaspete} & Scorul echipei oaspete\\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{class_match_stats_1_1_match_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_match_stats_1_1_match_a4911ad00378ee9afbf8c4f26aded4e56}\index{MatchStats.Match@{MatchStats.Match}!AddEvent@{AddEvent}}
+\index{AddEvent@{AddEvent}!MatchStats.Match@{MatchStats.Match}}
+\doxysubsubsection{\texorpdfstring{AddEvent()}{AddEvent()}}
+{\footnotesize\ttfamily \label{class_match_stats_1_1_match_a4911ad00378ee9afbf8c4f26aded4e56} 
+void Match\+Stats.\+Match.\+Add\+Event (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_match_stats_1_1_event}{Event}}}]{e}{}\end{DoxyParamCaption})}
+
+
+
+Adauga un eveniment in lista evenimentelor meciului. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul de adaugat\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_match_stats_1_1_match_a2b2a18fd373f6f933cc237d766c52562}\index{MatchStats.Match@{MatchStats.Match}!RemoveEvent@{RemoveEvent}}
+\index{RemoveEvent@{RemoveEvent}!MatchStats.Match@{MatchStats.Match}}
+\doxysubsubsection{\texorpdfstring{RemoveEvent()}{RemoveEvent()}}
+{\footnotesize\ttfamily \label{class_match_stats_1_1_match_a2b2a18fd373f6f933cc237d766c52562} 
+void Match\+Stats.\+Match.\+Remove\+Event (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_match_stats_1_1_event}{Event}}}]{e}{}\end{DoxyParamCaption})}
+
+
+
+Elimina un eveniment din lista evenimentelor meciului. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul de eliminat\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_match_stats_1_1_match_acc27e7fbc06348ce4ef783e8e58398ab}\index{MatchStats.Match@{MatchStats.Match}!ToString@{ToString}}
+\index{ToString@{ToString}!MatchStats.Match@{MatchStats.Match}}
+\doxysubsubsection{\texorpdfstring{ToString()}{ToString()}}
+{\footnotesize\ttfamily \label{class_match_stats_1_1_match_acc27e7fbc06348ce4ef783e8e58398ab} 
+override string Match\+Stats.\+Match.\+To\+String (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Returneaza o reprezentare textuala a meciului (ex\+: Romania 2\+:1 Franta). 
+
+\begin{DoxyReturn}{Returns}
+Descrierea meciului sub forma string
+\end{DoxyReturn}
+
+
+\label{doc-property-members}
+\Hypertarget{class_match_stats_1_1_match_doc-property-members}
+\doxysubsection{Property Documentation}
+\Hypertarget{class_match_stats_1_1_match_a9fa1f045f69d72cb441a627bb7b23538}\index{MatchStats.Match@{MatchStats.Match}!Evenimente@{Evenimente}}
+\index{Evenimente@{Evenimente}!MatchStats.Match@{MatchStats.Match}}
+\doxysubsubsection{\texorpdfstring{Evenimente}{Evenimente}}
+{\footnotesize\ttfamily \label{class_match_stats_1_1_match_a9fa1f045f69d72cb441a627bb7b23538} 
+List$<$\mbox{\hyperlink{class_match_stats_1_1_event}{Event}}$>$ Match\+Stats.\+Match.\+Evenimente\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Returneaza lista de evenimente ale meciului. 
+
+\Hypertarget{class_match_stats_1_1_match_af43943da72a2eae6a5af73d11794ab08}\index{MatchStats.Match@{MatchStats.Match}!Gazda@{Gazda}}
+\index{Gazda@{Gazda}!MatchStats.Match@{MatchStats.Match}}
+\doxysubsubsection{\texorpdfstring{Gazda}{Gazda}}
+{\footnotesize\ttfamily \label{class_match_stats_1_1_match_af43943da72a2eae6a5af73d11794ab08} 
+string Match\+Stats.\+Match.\+Gazda\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Proprietate pentru echipa gazda. 
+
+\Hypertarget{class_match_stats_1_1_match_a8aa1bc585ac436af81c0b5b5c869a5b0}\index{MatchStats.Match@{MatchStats.Match}!Oaspete@{Oaspete}}
+\index{Oaspete@{Oaspete}!MatchStats.Match@{MatchStats.Match}}
+\doxysubsubsection{\texorpdfstring{Oaspete}{Oaspete}}
+{\footnotesize\ttfamily \label{class_match_stats_1_1_match_a8aa1bc585ac436af81c0b5b5c869a5b0} 
+string Match\+Stats.\+Match.\+Oaspete\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Proprietate pentru echipa oaspete. 
+
+\Hypertarget{class_match_stats_1_1_match_ae3e1e7795cc44646bd065ecbfc0b9412}\index{MatchStats.Match@{MatchStats.Match}!ScorGazda@{ScorGazda}}
+\index{ScorGazda@{ScorGazda}!MatchStats.Match@{MatchStats.Match}}
+\doxysubsubsection{\texorpdfstring{ScorGazda}{ScorGazda}}
+{\footnotesize\ttfamily \label{class_match_stats_1_1_match_ae3e1e7795cc44646bd065ecbfc0b9412} 
+int Match\+Stats.\+Match.\+Scor\+Gazda\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Proprietate pentru scorul echipei gazda. 
+
+\Hypertarget{class_match_stats_1_1_match_a220d768dfc9b84f90108bb15d0084a62}\index{MatchStats.Match@{MatchStats.Match}!ScorOaspete@{ScorOaspete}}
+\index{ScorOaspete@{ScorOaspete}!MatchStats.Match@{MatchStats.Match}}
+\doxysubsubsection{\texorpdfstring{ScorOaspete}{ScorOaspete}}
+{\footnotesize\ttfamily \label{class_match_stats_1_1_match_a220d768dfc9b84f90108bb15d0084a62} 
+int Match\+Stats.\+Match.\+Scor\+Oaspete\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Proprietate pentru scorul echipei oaspete. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/ruben/\+One\+Drive/\+Desktop/facultate/\+AN\+\_\+3/ingineria\+\_\+programarii/\+Instant\+Score\+News\+App/\+Match\+Stats/\mbox{\hyperlink{_match_stats_8cs}{Match\+Stats.\+cs}}\end{DoxyCompactItemize}

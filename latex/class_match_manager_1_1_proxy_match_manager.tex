@@ -1,0 +1,313 @@
+\doxysection{Match\+Manager.\+Proxy\+Match\+Manager Class Reference}
+\hypertarget{class_match_manager_1_1_proxy_match_manager}{}\label{class_match_manager_1_1_proxy_match_manager}\index{MatchManager.ProxyMatchManager@{MatchManager.ProxyMatchManager}}
+
+
+Clasa care actioneaza ca un proxy intre interfata utilizatorului si gestionarea reala a meciurilor. Se ocupa de autentificare, controlul accesului si notificarea utilizatorilor non-\/admin.  
+
+
+Inheritance diagram for Match\+Manager.\+Proxy\+Match\+Manager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_match_manager_1_1_proxy_match_manager}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_match_manager_1_1_proxy_match_manager_a1d732b6b6af8cc4021bed1b0c629ccb0}{Proxy\+Match\+Manager}} ()
+\begin{DoxyCompactList}\small\item\em Constructorul clasei. Incarca utilizatorii din fisierul text si ii aboneaza pe cei non-\/admin. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_match_manager_1_1_proxy_match_manager_a22ded0e8fa6ece22f1e1d0c47b2f1476}{Login}} (String username, String password)
+\begin{DoxyCompactList}\small\item\em Verifica daca datele introduse de utilizator corespund unui cont existent. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_match_manager_1_1_proxy_match_manager_a44bc5762545c376a2c50413f97b3781a}{User\+Is\+Admin}} ()
+\begin{DoxyCompactList}\small\item\em Verifica daca utilizatorul curent are drepturi de administrator. \end{DoxyCompactList}\item 
+Stack$<$ \mbox{\hyperlink{class_match_stats_1_1_match}{Match}} $>$ \mbox{\hyperlink{class_match_manager_1_1_proxy_match_manager_a1a5bf72b9d1800d2ebc4c5da3d3ae8b2}{Get\+Matches}} ()
+\begin{DoxyCompactList}\small\item\em Returneaza lista meciurilor din managerul real. \end{DoxyCompactList}\item 
+Stack$<$ \mbox{\hyperlink{class_match_stats_1_1_event}{Event}} $>$ \mbox{\hyperlink{class_match_manager_1_1_proxy_match_manager_aaa638bb4de76e2e7fa7af1a760e5a506}{Get\+Events}} (\mbox{\hyperlink{class_match_stats_1_1_match}{Match}} match)
+\begin{DoxyCompactList}\small\item\em Returneaza evenimentele asociate unui meci. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_match_manager_1_1_proxy_match_manager_a41ba5e9c20347065824651879701e90f}{Add\+Match}} (\mbox{\hyperlink{class_match_stats_1_1_match}{Match}} match)
+\begin{DoxyCompactList}\small\item\em Adauga un meci daca utilizatorul este admin si trimite notificare. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_match_manager_1_1_proxy_match_manager_ae888554aeb59c39503c11e3afff22acd}{Remove\+Match}} (\mbox{\hyperlink{class_match_stats_1_1_match}{Match}} match)
+\begin{DoxyCompactList}\small\item\em Sterge un meci daca utilizatorul este admin si trimite notificare. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_match_manager_1_1_proxy_match_manager_abdcd9c5431afb1da9d4816deec4a5aef}{Update\+Match}} (\mbox{\hyperlink{class_match_stats_1_1_match}{Match}} match, \mbox{\hyperlink{class_match_stats_1_1_match}{Match}} new\+Match)
+\begin{DoxyCompactList}\small\item\em Actualizeaza un meci daca utilizatorul este admin si trimite notificare. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_match_manager_1_1_proxy_match_manager_ad38e4c49036a48fec549314499151b08}{Add\+Event}} (\mbox{\hyperlink{class_match_stats_1_1_match}{Match}} match, \mbox{\hyperlink{class_match_stats_1_1_event}{Event}} e)
+\begin{DoxyCompactList}\small\item\em Adauga un eveniment la un meci daca utilizatorul este admin si trimite notificare. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_match_manager_1_1_proxy_match_manager_ae795ada0d418c23ac680ba1b221a7db6}{Delete\+Event}} (\mbox{\hyperlink{class_match_stats_1_1_match}{Match}} match, \mbox{\hyperlink{class_match_stats_1_1_event}{Event}} e)
+\begin{DoxyCompactList}\small\item\em Sterge un eveniment dintr-\/un meci daca utilizatorul este admin si trimite notificare. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_match_manager_1_1_proxy_match_manager_af21809f07a05b8b64cd5daef766b51cf}{Update\+Event}} (\mbox{\hyperlink{class_match_stats_1_1_match}{Match}} match, \mbox{\hyperlink{class_match_stats_1_1_event}{Event}} e, \mbox{\hyperlink{class_match_stats_1_1_event}{Event}} new\+Event)
+\begin{DoxyCompactList}\small\item\em Actualizeaza un eveniment intr-\/un meci daca utilizatorul este admin si trimite notificare. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_match_manager_1_1_proxy_match_manager_a8347e637f884be7abd6976f3bf71a4eb}{Add\+User}} (string username, string password)
+\begin{DoxyCompactList}\small\item\em Adauga un nou utilizator normal (non-\/admin), il salveaza in fisier si il aboneaza. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_match_manager_1_1_proxy_match_manager_a40ce7a8a9e61c7f6087cbf581c3e4005}{Attach}} (\mbox{\hyperlink{interface_observer_lib_1_1_subscriber}{Subscriber}} subscriber)
+\begin{DoxyCompactList}\small\item\em Ataseaza un nou abonat pentru notificari (daca nu este deja abonat). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_match_manager_1_1_proxy_match_manager_a332d43eade48c7170de3d644cc455b84}{Detach}} (\mbox{\hyperlink{interface_observer_lib_1_1_subscriber}{Subscriber}} subscriber)
+\begin{DoxyCompactList}\small\item\em Elimina un abonat din lista de notificare. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_match_manager_1_1_proxy_match_manager_af124a07b09d660d655494fd808481560}{Notify}} (string notificare)
+\begin{DoxyCompactList}\small\item\em Trimite o notificare tuturor abonatilor existenti. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_user_lib_1_1_user}{User}} \mbox{\hyperlink{class_match_manager_1_1_proxy_match_manager_a49fb2fd0503f73dd3916e0983bb238aa}{Current\+User}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Returneaza sau seteaza utilizatorul curent autentificat in aplicatie. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clasa care actioneaza ca un proxy intre interfata utilizatorului si gestionarea reala a meciurilor. Se ocupa de autentificare, controlul accesului si notificarea utilizatorilor non-\/admin. 
+
+\label{doc-constructors}
+\Hypertarget{class_match_manager_1_1_proxy_match_manager_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_match_manager_1_1_proxy_match_manager_a1d732b6b6af8cc4021bed1b0c629ccb0}\index{MatchManager.ProxyMatchManager@{MatchManager.ProxyMatchManager}!ProxyMatchManager@{ProxyMatchManager}}
+\index{ProxyMatchManager@{ProxyMatchManager}!MatchManager.ProxyMatchManager@{MatchManager.ProxyMatchManager}}
+\doxysubsubsection{\texorpdfstring{ProxyMatchManager()}{ProxyMatchManager()}}
+{\footnotesize\ttfamily \label{class_match_manager_1_1_proxy_match_manager_a1d732b6b6af8cc4021bed1b0c629ccb0} 
+Match\+Manager.\+Proxy\+Match\+Manager.\+Proxy\+Match\+Manager (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Constructorul clasei. Incarca utilizatorii din fisierul text si ii aboneaza pe cei non-\/admin. 
+
+
+
+\label{doc-func-members}
+\Hypertarget{class_match_manager_1_1_proxy_match_manager_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_match_manager_1_1_proxy_match_manager_ad38e4c49036a48fec549314499151b08}\index{MatchManager.ProxyMatchManager@{MatchManager.ProxyMatchManager}!AddEvent@{AddEvent}}
+\index{AddEvent@{AddEvent}!MatchManager.ProxyMatchManager@{MatchManager.ProxyMatchManager}}
+\doxysubsubsection{\texorpdfstring{AddEvent()}{AddEvent()}}
+{\footnotesize\ttfamily \label{class_match_manager_1_1_proxy_match_manager_ad38e4c49036a48fec549314499151b08} 
+void Match\+Manager.\+Proxy\+Match\+Manager.\+Add\+Event (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_match_stats_1_1_match}{Match}}}]{match}{, }\item[{\mbox{\hyperlink{class_match_stats_1_1_event}{Event}}}]{e}{}\end{DoxyParamCaption})}
+
+
+
+Adauga un eveniment la un meci daca utilizatorul este admin si trimite notificare. 
+
+
+
+Implements \mbox{\hyperlink{interface_match_manager_1_1_i_match_manager_ad54a6d783471ee09c59bc8dda65bc22c}{Match\+Manager.\+IMatch\+Manager}}.
+
+\Hypertarget{class_match_manager_1_1_proxy_match_manager_a41ba5e9c20347065824651879701e90f}\index{MatchManager.ProxyMatchManager@{MatchManager.ProxyMatchManager}!AddMatch@{AddMatch}}
+\index{AddMatch@{AddMatch}!MatchManager.ProxyMatchManager@{MatchManager.ProxyMatchManager}}
+\doxysubsubsection{\texorpdfstring{AddMatch()}{AddMatch()}}
+{\footnotesize\ttfamily \label{class_match_manager_1_1_proxy_match_manager_a41ba5e9c20347065824651879701e90f} 
+void Match\+Manager.\+Proxy\+Match\+Manager.\+Add\+Match (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_match_stats_1_1_match}{Match}}}]{match}{}\end{DoxyParamCaption})}
+
+
+
+Adauga un meci daca utilizatorul este admin si trimite notificare. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em match} & Meciul de adaugat.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_match_manager_1_1_i_match_manager_a5b829e3d8735b6eb9b263e486ffb426e}{Match\+Manager.\+IMatch\+Manager}}.
+
+\Hypertarget{class_match_manager_1_1_proxy_match_manager_a8347e637f884be7abd6976f3bf71a4eb}\index{MatchManager.ProxyMatchManager@{MatchManager.ProxyMatchManager}!AddUser@{AddUser}}
+\index{AddUser@{AddUser}!MatchManager.ProxyMatchManager@{MatchManager.ProxyMatchManager}}
+\doxysubsubsection{\texorpdfstring{AddUser()}{AddUser()}}
+{\footnotesize\ttfamily \label{class_match_manager_1_1_proxy_match_manager_a8347e637f884be7abd6976f3bf71a4eb} 
+void Match\+Manager.\+Proxy\+Match\+Manager.\+Add\+User (\begin{DoxyParamCaption}\item[{string}]{username}{, }\item[{string}]{password}{}\end{DoxyParamCaption})}
+
+
+
+Adauga un nou utilizator normal (non-\/admin), il salveaza in fisier si il aboneaza. 
+
+\Hypertarget{class_match_manager_1_1_proxy_match_manager_a40ce7a8a9e61c7f6087cbf581c3e4005}\index{MatchManager.ProxyMatchManager@{MatchManager.ProxyMatchManager}!Attach@{Attach}}
+\index{Attach@{Attach}!MatchManager.ProxyMatchManager@{MatchManager.ProxyMatchManager}}
+\doxysubsubsection{\texorpdfstring{Attach()}{Attach()}}
+{\footnotesize\ttfamily \label{class_match_manager_1_1_proxy_match_manager_a40ce7a8a9e61c7f6087cbf581c3e4005} 
+void Match\+Manager.\+Proxy\+Match\+Manager.\+Attach (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_observer_lib_1_1_subscriber}{Subscriber}}}]{subscriber}{}\end{DoxyParamCaption})}
+
+
+
+Ataseaza un nou abonat pentru notificari (daca nu este deja abonat). 
+
+
+
+Implements \mbox{\hyperlink{interface_observer_lib_1_1_subject_a8ee7fe3ab0090035fc81dae603c0e8d1}{Observer\+Lib.\+Subject}}.
+
+\Hypertarget{class_match_manager_1_1_proxy_match_manager_ae795ada0d418c23ac680ba1b221a7db6}\index{MatchManager.ProxyMatchManager@{MatchManager.ProxyMatchManager}!DeleteEvent@{DeleteEvent}}
+\index{DeleteEvent@{DeleteEvent}!MatchManager.ProxyMatchManager@{MatchManager.ProxyMatchManager}}
+\doxysubsubsection{\texorpdfstring{DeleteEvent()}{DeleteEvent()}}
+{\footnotesize\ttfamily \label{class_match_manager_1_1_proxy_match_manager_ae795ada0d418c23ac680ba1b221a7db6} 
+void Match\+Manager.\+Proxy\+Match\+Manager.\+Delete\+Event (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_match_stats_1_1_match}{Match}}}]{match}{, }\item[{\mbox{\hyperlink{class_match_stats_1_1_event}{Event}}}]{e}{}\end{DoxyParamCaption})}
+
+
+
+Sterge un eveniment dintr-\/un meci daca utilizatorul este admin si trimite notificare. 
+
+
+
+Implements \mbox{\hyperlink{interface_match_manager_1_1_i_match_manager_a140a646aef62970b4a2ec9616d042127}{Match\+Manager.\+IMatch\+Manager}}.
+
+\Hypertarget{class_match_manager_1_1_proxy_match_manager_a332d43eade48c7170de3d644cc455b84}\index{MatchManager.ProxyMatchManager@{MatchManager.ProxyMatchManager}!Detach@{Detach}}
+\index{Detach@{Detach}!MatchManager.ProxyMatchManager@{MatchManager.ProxyMatchManager}}
+\doxysubsubsection{\texorpdfstring{Detach()}{Detach()}}
+{\footnotesize\ttfamily \label{class_match_manager_1_1_proxy_match_manager_a332d43eade48c7170de3d644cc455b84} 
+void Match\+Manager.\+Proxy\+Match\+Manager.\+Detach (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_observer_lib_1_1_subscriber}{Subscriber}}}]{subscriber}{}\end{DoxyParamCaption})}
+
+
+
+Elimina un abonat din lista de notificare. 
+
+
+
+Implements \mbox{\hyperlink{interface_observer_lib_1_1_subject_a3f9cc855794fad453b7410f60d2ffd15}{Observer\+Lib.\+Subject}}.
+
+\Hypertarget{class_match_manager_1_1_proxy_match_manager_aaa638bb4de76e2e7fa7af1a760e5a506}\index{MatchManager.ProxyMatchManager@{MatchManager.ProxyMatchManager}!GetEvents@{GetEvents}}
+\index{GetEvents@{GetEvents}!MatchManager.ProxyMatchManager@{MatchManager.ProxyMatchManager}}
+\doxysubsubsection{\texorpdfstring{GetEvents()}{GetEvents()}}
+{\footnotesize\ttfamily \label{class_match_manager_1_1_proxy_match_manager_aaa638bb4de76e2e7fa7af1a760e5a506} 
+Stack$<$ \mbox{\hyperlink{class_match_stats_1_1_event}{Event}} $>$ Match\+Manager.\+Proxy\+Match\+Manager.\+Get\+Events (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_match_stats_1_1_match}{Match}}}]{match}{}\end{DoxyParamCaption})}
+
+
+
+Returneaza evenimentele asociate unui meci. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em match} & Meciul pentru care se cer evenimentele.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_match_manager_1_1_i_match_manager_af22376ae5ee22542bf2a158cf2f16e9e}{Match\+Manager.\+IMatch\+Manager}}.
+
+\Hypertarget{class_match_manager_1_1_proxy_match_manager_a1a5bf72b9d1800d2ebc4c5da3d3ae8b2}\index{MatchManager.ProxyMatchManager@{MatchManager.ProxyMatchManager}!GetMatches@{GetMatches}}
+\index{GetMatches@{GetMatches}!MatchManager.ProxyMatchManager@{MatchManager.ProxyMatchManager}}
+\doxysubsubsection{\texorpdfstring{GetMatches()}{GetMatches()}}
+{\footnotesize\ttfamily \label{class_match_manager_1_1_proxy_match_manager_a1a5bf72b9d1800d2ebc4c5da3d3ae8b2} 
+Stack$<$ \mbox{\hyperlink{class_match_stats_1_1_match}{Match}} $>$ Match\+Manager.\+Proxy\+Match\+Manager.\+Get\+Matches (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Returneaza lista meciurilor din managerul real. 
+
+
+
+Implements \mbox{\hyperlink{interface_match_manager_1_1_i_match_manager_aff084c5ab0492556ded7864642ec47b1}{Match\+Manager.\+IMatch\+Manager}}.
+
+\Hypertarget{class_match_manager_1_1_proxy_match_manager_a22ded0e8fa6ece22f1e1d0c47b2f1476}\index{MatchManager.ProxyMatchManager@{MatchManager.ProxyMatchManager}!Login@{Login}}
+\index{Login@{Login}!MatchManager.ProxyMatchManager@{MatchManager.ProxyMatchManager}}
+\doxysubsubsection{\texorpdfstring{Login()}{Login()}}
+{\footnotesize\ttfamily \label{class_match_manager_1_1_proxy_match_manager_a22ded0e8fa6ece22f1e1d0c47b2f1476} 
+bool Match\+Manager.\+Proxy\+Match\+Manager.\+Login (\begin{DoxyParamCaption}\item[{String}]{username}{, }\item[{String}]{password}{}\end{DoxyParamCaption})}
+
+
+
+Verifica daca datele introduse de utilizator corespund unui cont existent. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em username} & Numele de utilizator introdus.\\
+\hline
+{\em password} & Parola introdusa (necriptata).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Adevarat daca autentificarea este reusita, altfel fals.
+\end{DoxyReturn}
+\Hypertarget{class_match_manager_1_1_proxy_match_manager_af124a07b09d660d655494fd808481560}\index{MatchManager.ProxyMatchManager@{MatchManager.ProxyMatchManager}!Notify@{Notify}}
+\index{Notify@{Notify}!MatchManager.ProxyMatchManager@{MatchManager.ProxyMatchManager}}
+\doxysubsubsection{\texorpdfstring{Notify()}{Notify()}}
+{\footnotesize\ttfamily \label{class_match_manager_1_1_proxy_match_manager_af124a07b09d660d655494fd808481560} 
+void Match\+Manager.\+Proxy\+Match\+Manager.\+Notify (\begin{DoxyParamCaption}\item[{string}]{notificare}{}\end{DoxyParamCaption})}
+
+
+
+Trimite o notificare tuturor abonatilor existenti. 
+
+
+
+Implements \mbox{\hyperlink{interface_observer_lib_1_1_subject_a2d0464b76f819870a09a0c4bbdd23318}{Observer\+Lib.\+Subject}}.
+
+\Hypertarget{class_match_manager_1_1_proxy_match_manager_ae888554aeb59c39503c11e3afff22acd}\index{MatchManager.ProxyMatchManager@{MatchManager.ProxyMatchManager}!RemoveMatch@{RemoveMatch}}
+\index{RemoveMatch@{RemoveMatch}!MatchManager.ProxyMatchManager@{MatchManager.ProxyMatchManager}}
+\doxysubsubsection{\texorpdfstring{RemoveMatch()}{RemoveMatch()}}
+{\footnotesize\ttfamily \label{class_match_manager_1_1_proxy_match_manager_ae888554aeb59c39503c11e3afff22acd} 
+void Match\+Manager.\+Proxy\+Match\+Manager.\+Remove\+Match (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_match_stats_1_1_match}{Match}}}]{match}{}\end{DoxyParamCaption})}
+
+
+
+Sterge un meci daca utilizatorul este admin si trimite notificare. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em match} & Meciul de sters.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_match_manager_1_1_i_match_manager_a6ca325e229c659d5a38d2ee04e677c79}{Match\+Manager.\+IMatch\+Manager}}.
+
+\Hypertarget{class_match_manager_1_1_proxy_match_manager_af21809f07a05b8b64cd5daef766b51cf}\index{MatchManager.ProxyMatchManager@{MatchManager.ProxyMatchManager}!UpdateEvent@{UpdateEvent}}
+\index{UpdateEvent@{UpdateEvent}!MatchManager.ProxyMatchManager@{MatchManager.ProxyMatchManager}}
+\doxysubsubsection{\texorpdfstring{UpdateEvent()}{UpdateEvent()}}
+{\footnotesize\ttfamily \label{class_match_manager_1_1_proxy_match_manager_af21809f07a05b8b64cd5daef766b51cf} 
+void Match\+Manager.\+Proxy\+Match\+Manager.\+Update\+Event (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_match_stats_1_1_match}{Match}}}]{match}{, }\item[{\mbox{\hyperlink{class_match_stats_1_1_event}{Event}}}]{e}{, }\item[{\mbox{\hyperlink{class_match_stats_1_1_event}{Event}}}]{new\+Event}{}\end{DoxyParamCaption})}
+
+
+
+Actualizeaza un eveniment intr-\/un meci daca utilizatorul este admin si trimite notificare. 
+
+
+
+Implements \mbox{\hyperlink{interface_match_manager_1_1_i_match_manager_a69049f5a5a7101acadcc9c2e30ae4351}{Match\+Manager.\+IMatch\+Manager}}.
+
+\Hypertarget{class_match_manager_1_1_proxy_match_manager_abdcd9c5431afb1da9d4816deec4a5aef}\index{MatchManager.ProxyMatchManager@{MatchManager.ProxyMatchManager}!UpdateMatch@{UpdateMatch}}
+\index{UpdateMatch@{UpdateMatch}!MatchManager.ProxyMatchManager@{MatchManager.ProxyMatchManager}}
+\doxysubsubsection{\texorpdfstring{UpdateMatch()}{UpdateMatch()}}
+{\footnotesize\ttfamily \label{class_match_manager_1_1_proxy_match_manager_abdcd9c5431afb1da9d4816deec4a5aef} 
+void Match\+Manager.\+Proxy\+Match\+Manager.\+Update\+Match (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_match_stats_1_1_match}{Match}}}]{match}{, }\item[{\mbox{\hyperlink{class_match_stats_1_1_match}{Match}}}]{new\+Match}{}\end{DoxyParamCaption})}
+
+
+
+Actualizeaza un meci daca utilizatorul este admin si trimite notificare. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em match} & Meciul original.\\
+\hline
+{\em new\+Match} & Noul meci cu datele actualizate.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_match_manager_1_1_i_match_manager_a3fef32d38211007bb7a2dc8077a51cd9}{Match\+Manager.\+IMatch\+Manager}}.
+
+\Hypertarget{class_match_manager_1_1_proxy_match_manager_a44bc5762545c376a2c50413f97b3781a}\index{MatchManager.ProxyMatchManager@{MatchManager.ProxyMatchManager}!UserIsAdmin@{UserIsAdmin}}
+\index{UserIsAdmin@{UserIsAdmin}!MatchManager.ProxyMatchManager@{MatchManager.ProxyMatchManager}}
+\doxysubsubsection{\texorpdfstring{UserIsAdmin()}{UserIsAdmin()}}
+{\footnotesize\ttfamily \label{class_match_manager_1_1_proxy_match_manager_a44bc5762545c376a2c50413f97b3781a} 
+bool Match\+Manager.\+Proxy\+Match\+Manager.\+User\+Is\+Admin (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Verifica daca utilizatorul curent are drepturi de administrator. 
+
+\begin{DoxyReturn}{Returns}
+Adevarat daca este admin, altfel fals.
+\end{DoxyReturn}
+
+
+\label{doc-property-members}
+\Hypertarget{class_match_manager_1_1_proxy_match_manager_doc-property-members}
+\doxysubsection{Property Documentation}
+\Hypertarget{class_match_manager_1_1_proxy_match_manager_a49fb2fd0503f73dd3916e0983bb238aa}\index{MatchManager.ProxyMatchManager@{MatchManager.ProxyMatchManager}!CurrentUser@{CurrentUser}}
+\index{CurrentUser@{CurrentUser}!MatchManager.ProxyMatchManager@{MatchManager.ProxyMatchManager}}
+\doxysubsubsection{\texorpdfstring{CurrentUser}{CurrentUser}}
+{\footnotesize\ttfamily \label{class_match_manager_1_1_proxy_match_manager_a49fb2fd0503f73dd3916e0983bb238aa} 
+\mbox{\hyperlink{class_user_lib_1_1_user}{User}} Match\+Manager.\+Proxy\+Match\+Manager.\+Current\+User\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Returneaza sau seteaza utilizatorul curent autentificat in aplicatie. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/ruben/\+One\+Drive/\+Desktop/facultate/\+AN\+\_\+3/ingineria\+\_\+programarii/\+Instant\+Score\+News\+App/\+Match\+Manager\+Lib/\mbox{\hyperlink{_proxy_match_manager_8cs}{Proxy\+Match\+Manager.\+cs}}\end{DoxyCompactItemize}
