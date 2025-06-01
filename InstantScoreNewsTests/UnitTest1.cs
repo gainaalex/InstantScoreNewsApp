@@ -1,7 +1,7 @@
 ﻿/************************************************************
- * Autor: Gaina Alexandru
+ * Autori: Gaina Alexandru, Mazureac Ruben, Petrea Paul-Alberto, Turcu Andrei
  * Data crearii: 2025-05-20
- * Ultima modificare: 2025-05-25
+ * Ultima modificare: 2025-05-30
  * Fisier: UnitTest1.cs
  * Functionalitate: Teste pentru functionalitatea aplicatiei
  ************************************************************/

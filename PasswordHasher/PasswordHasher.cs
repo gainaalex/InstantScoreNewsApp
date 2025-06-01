@@ -1,5 +1,5 @@
 ﻿/************************************************************
- * Autor: Gaina Alexandru
+ * Autor: Turcu Andrei
  * Data crearii: 2025-05-20
  * Ultima modificare: 2025-05-20
  * Fisier: PasswordHasher.cs
