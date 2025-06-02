@@ -1,0 +1,23 @@
+Mentiuni:
+-fiecare a tratat exceptiile intalnite in librariile la care a lucrat
+-fiecare a comentat codul propriu
+-fiecare a respectat standarul de scriere impus in lab.2
+-fiecare a contribuit la testele inregistrate pe parcurs
+
+Gaina Alex:
+-Interfata+ codul aferent
+-libraria MatchManagerLib
+
+Petrea Paul-Alberto:
+-documentatie
+-diagrame
+-libraria MatchStats
+
+Mazureac Ruben:
+-documentatie
+-help (HelpNDoc + Doxygen)+ implementarea lui in gui
+
+Turcu Andrei:
+-libraria ObserverLib
+-libraria PasswordHasher
+-libraria UserLibrary
